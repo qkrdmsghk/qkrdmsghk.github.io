@@ -1,10 +1,8 @@
-# Yinhua Piao
+## Yinhua Piao
 
 - Ph.D. Candidate Student at Seoul National University
-
 - Department of Computer Science and Engineering working with Professor Sun Kim.
-
-- current research: machine learning adoption in real-world healthcare domain.
+- Current research: machine learning adoption in real-world healthcare domain.
 
 ## Publications
 
