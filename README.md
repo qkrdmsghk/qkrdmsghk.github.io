@@ -6,8 +6,11 @@
 
 - current research: machine learning adoption in real-world healthcare domain.
 
-## Publication
+## Publications
 
+google scholar [https://scholar.google.com/citations?hl=zh-CN&user=zZr-Kj4AAAAJ]
+1. Graph Convolutional Network for Drug Response Prediction Using Gene Expression Data. S Kim, S Bae, Y Piao, K Jo. Mathematics 9 (7), 772.
+2. Graph Convolutional Networks for Predictive Healthcare using Clinical Notes. Y Piao, S Lee, S Kim. In Proceedings of the Korean Information Science Society Conference 2020.
 
 <!-- 
 You can use the [editor on GitHub](https://github.com/qkrdmsghk/qkrdmsghk.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
