@@ -16,6 +16,7 @@
 ## Scholarships and Awards
 
 - Samsung HumanTech Paper Award (Bronze; Feb. 2022)
+- AAAI Student Scholar Scholarship (Feb. 2022)
 - SNU Global Scholarships II (Jun. 2020 ~ Jan. 2022)
 
 
