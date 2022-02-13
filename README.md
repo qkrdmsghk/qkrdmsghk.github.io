@@ -4,6 +4,15 @@
 - Department of Computer Science and Engineering working with Professor Sun Kim.
 - Current research: machine learning adoption in real-world healthcare domain.
 
+## Education
+
+- Seoul National University
+  - M.S. Student in Computer Science and Engineering. (Sep 2018-Aug 2020)
+  - Ph.D. Candidate in Computer Science and Engineering. (Sep 2020-Present)
+- Jilin University (Sep 2014-Aug 2018)
+  - B.S. Student in Software Engineering.
+
+
 ## Publications
 
 [google scholar](https://scholar.google.com/citations?hl=zh-CN&user=zZr-Kj4AAAAJ)
