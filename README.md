@@ -7,8 +7,8 @@
 ## Education
 
 - [Seoul National University](https://www.snu.ac.kr/index.html)
-  - M.S. Student in Computer Science and Engineering. (Sep 2018-Aug 2020)
   - Ph.D. Candidate in Computer Science and Engineering. (Sep 2020-Present)
+  - M.S. Student in Computer Science and Engineering. (Sep 2018-Aug 2020)
 - [Jilin University](https://www.jlu.edu.cn/) (Sep 2014-Aug 2018)
   - B.S. Student in Software Engineering.
 
