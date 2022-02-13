@@ -10,7 +10,7 @@
 
 - Sparse Structure learning via Graph Neural Networks for Inductive Document Classification. To be published in AAAI 2022. [[pdf]](https://arxiv.org/abs/2112.06386)
 - Graph Convolutional Network for Drug Response Prediction Using Gene Expression Data. S Kim, S Bae, Y Piao, K Jo. Mathematics 9 (7), 772. [[pdf]](https://www.mdpi.com/2227-7390/9/7/772)
-- Graph Convolutional Networks for Predictive Healthcare using Clinical Notes. Y Piao, S Lee, S Kim. In Proceedings of the Korean Information Science Society Conference 2020.
+- Graph Convolutional Networks for Predictive Healthcare using Clinical Notes. Y Piao, S Lee, S Kim. In Proceedings of the Korean Information Science Society Conference 2020. [[pdf]](https://s-space.snu.ac.kr/handle/10371/169366)
 
 <!-- 
 You can use the [editor on GitHub](https://github.com/qkrdmsghk/qkrdmsghk.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
