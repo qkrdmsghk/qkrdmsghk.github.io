@@ -1,15 +1,15 @@
 ## Yinhua Piao
 
 - Ph.D. Candidate Student at Seoul National University
-- Department of Computer Science and Engineering working with Professor Sun Kim.
+- Department of Computer Science and Engineering working with [Professor Sun Kim](https://bhi-kimlab.github.io/members/sun_kim.html).
 - Current research: machine learning adoption in real-world healthcare domain.
 
 ## Education
 
-- Seoul National University
+- [Seoul National University](https://www.snu.ac.kr/index.html)
   - M.S. Student in Computer Science and Engineering. (Sep 2018-Aug 2020)
   - Ph.D. Candidate in Computer Science and Engineering. (Sep 2020-Present)
-- Jilin University (Sep 2014-Aug 2018)
+- [Jilin University](https://www.jlu.edu.cn/) (Sep 2014-Aug 2018)
   - B.S. Student in Software Engineering.
 
 
@@ -24,7 +24,7 @@
 
 ## Scholarships and Awards
 
-- Samsung HumanTech Paper Award (Bronze; Feb. 2022)
+- Samsung HumanTech Paper Award (**Bronze Prize**; Feb. 2022)
 - AAAI Student Scholar Scholarship (Feb. 2022)
 - SNU Global Scholarships II (Jun. 2020 ~ Jan. 2022)
 
