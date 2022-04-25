@@ -17,7 +17,7 @@
 
 <!-- [google scholar](https://scholar.google.com/citations?hl=zh-CN&user=zZr-Kj4AAAAJ)
  -->
-- **Sparse Structure learning via Graph Neural Networks for Inductive Document Classification.** [[pdf]](https://www.aaai.org/AAAI22Papers/AAAI-8658.PiaoY.pdf) \
+- **Sparse Structure learning via Graph Neural Networks for Inductive Document Classification.** [[pdf]](https://www.aaai.org/AAAI22Papers/AAAI-8658.PiaoY.pdf) [[code]](https://github.com/qkrdmsghk/TextSSL) \
 **Yinhua Piao**, Sangseon Lee, Dohoon Lee, Sun Kim.\
 AAAI Conference on Artificial Intelligence (**AAAI**) 2021.
 - **Graph Convolutional Network for Drug Response Prediction Using Gene Expression Data.** [[pdf]](https://www.mdpi.com/2227-7390/9/7/772)\
