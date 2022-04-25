@@ -19,13 +19,13 @@
  -->
 - **Sparse Structure learning via Graph Neural Networks for Inductive Document Classification.** [[pdf]](https://www.aaai.org/AAAI22Papers/AAAI-8658.PiaoY.pdf) [[code]](https://github.com/qkrdmsghk/TextSSL) \
 **Yinhua Piao**, Sangseon Lee, Dohoon Lee, Sun Kim.\
-_AAAI Conference on Artificial Intelligence (**AAAI**) 2021.
+*AAAI Conference on Artificial Intelligence (**AAAI**) 2021.*
 - **Graph Convolutional Network for Drug Response Prediction Using Gene Expression Data.** [[pdf]](https://www.mdpi.com/2227-7390/9/7/772)\
 Seonghun Kim, Seockhun Bae, **Yinhua Piao**, Kyuri Jo.\
-Mathematics 9 (7), 772, 2021.
+*Mathematics 9 (7), 772, 2021.*
 - **Graph Convolutional Networks for Predictive Healthcare using Clinical Notes.** [[pdf]](https://s-space.snu.ac.kr/handle/10371/169366)\
 **Yinhua Piao**, Sangseon Lee, Sun Kim. \
-In Proceedings of the Korean Information Science Society Conference 2020.
+*In Proceedings of the Korean Information Science Society Conference 2020.*
 
 
 ## Scholarships and Awards
