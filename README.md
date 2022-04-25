@@ -17,11 +17,11 @@
 
 <!-- [google scholar](https://scholar.google.com/citations?hl=zh-CN&user=zZr-Kj4AAAAJ)
  -->
-- **Sparse Structure learning via Graph Neural Networks for Inductive Document Classification.**
+- **Sparse Structure learning via Graph Neural Networks for Inductive Document Classification.**\
 **Y Piao**, S Lee, D Lee, S Kim. Proceedings of the AAAI conference on artificial intelligence 2022. [[pdf]](https://www.aaai.org/AAAI22Papers/AAAI-8658.PiaoY.pdf)[[code]](https://github.com/qkrdmsghk/TextSSL)
-- **Graph Convolutional Network for Drug Response Prediction Using Gene Expression Data.**
+- **Graph Convolutional Network for Drug Response Prediction Using Gene Expression Data.**\
 S Kim, S Bae, **Y Piao**, K Jo. Mathematics 9 (7), 772, 2021. [[pdf]](https://www.mdpi.com/2227-7390/9/7/772)
-- **Graph Convolutional Networks for Predictive Healthcare using Clinical Notes.**
+- **Graph Convolutional Networks for Predictive Healthcare using Clinical Notes.**\
 **Y Piao**, S Lee, S Kim. In Proceedings of the Korean Information Science Society Conference 2020. [[pdf]](https://s-space.snu.ac.kr/handle/10371/169366)
 
 
