@@ -32,8 +32,13 @@ S Kim, S Bae, **Y Piao**, K Jo. Mathematics 9 (7), 772, 2021. [[pdf]](https://ww
 - AAAI Student Scholar Scholarship (Feb. 2022)
 - SNU Global Scholarships II (Jun. 2020 ~ Jan. 2022)
 
+## Professional Activities
 
+- Reviewer for AAAI 2022
 
+## Contact
+
+- 2018-27910 at snu dot ac dot kr
 
 <!-- 
 You can use the [editor on GitHub](https://github.com/qkrdmsghk/qkrdmsghk.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
