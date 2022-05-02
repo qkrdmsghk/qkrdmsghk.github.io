@@ -30,10 +30,10 @@ Seonghun Kim, Seockhun Bae, **Yinhua Piao**, Kyuri Jo.\
 
 ## Scholarships and Awards
 
-- [AIIS Retreat Best Poster Award (Apr. 2022)](https://aiis.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=312)
-- [Samsung HumanTech Paper Award (**Bronze Prize**; Feb. 2022)](https://cse.snu.ac.kr/node/54543)
+- AIIS Retreat Best Poster Award (Apr. 2022)[link](https://aiis.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=312)
+- Samsung HumanTech Paper Award (**Bronze Prize**; Feb. 2022)[link](https://cse.snu.ac.kr/node/54543)
 - AAAI Student Scholar Scholarship (Feb. 2022)
-- [SNU Global Scholarships II (Jun. 2020 ~ Jan. 2022)](https://oia.snu.ac.kr/page/scholarships-SGS.php/)
+- SNU Global Scholarships II (Jun. 2020 ~ Jan. 2022)[link](https://oia.snu.ac.kr/page/scholarships-SGS.php/)
 
 ## Professional Activities
 
