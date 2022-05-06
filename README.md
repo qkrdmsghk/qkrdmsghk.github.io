@@ -19,7 +19,7 @@
  -->
 - **Graph Learning for Drug Discovery and Precision Medicine.** [[pdf]](http://www.kiise.or.kr/1coms/data/4003/2022_03.pdf) \
 **Yinhua Piao(*)**, Sangseon Lee(\*), Sun Kim.\
-*[Domestic Journal]한국정보과학회지 제 40권 제 3호, pp.30-40. 2022.*
+*한국정보과학회지 제 40권 제 3호, pp.30-40. 2022.*
 - **Sparse Structure learning via Graph Neural Networks for Inductive Document Classification.** [[pdf]](https://www.aaai.org/AAAI22Papers/AAAI-8658.PiaoY.pdf) [[code]](https://github.com/qkrdmsghk/TextSSL) \
 **Yinhua Piao**, Sangseon Lee, Dohoon Lee, Sun Kim.\
 *AAAI Conference on Artificial Intelligence (**AAAI**) 2022.*
