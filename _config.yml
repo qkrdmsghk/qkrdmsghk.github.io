@@ -67,7 +67,7 @@ include:
   - images
 exclude:
   - docs
-  - google_scholar_crawler
+  # - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
