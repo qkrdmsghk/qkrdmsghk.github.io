@@ -24,6 +24,7 @@ My research interests lie in developing computational methods to solve complex p
 
 
 # 🔥 News
+- *2023.08*: &nbsp;🎉🎉 co-work is accepted by CSBJ 2023 
 - *2023.05*: &nbsp;🎉🎉 co-work is accepted by ACL 2023 
 
 # 📝 Publications 
@@ -43,7 +44,14 @@ My research interests lie in developing computational methods to solve complex p
 <ul>
   <li>
     <code class="language-plaintext highlighter-rouge">ACL 2023</code>
-    <span style="color:red">(Long paper)</span>
+    <!-- <span style="color:red">(Long paper)</span> -->
+    <a href="10.1016/j.csbj.2023.08.016">Exploring Chemical Space for Lead Identification by Propagating on Chemical Similarity Network</a>
+    <br> Jungseob Yi, Sangseon Lee, Sangsoo Lim, Changyun Cho, <strong>Yinhua Piao</strong>, Marie Yeo, Dongkyu Kim, Sun Kim, Sunho Lee | <a href="https://github.com/J-Sub/ChemNP"><strong>Project</strong></a>
+  </li>
+
+  <li>
+    <code class="language-plaintext highlighter-rouge">ACL 2023</code>
+    <!-- <span style="color:red">(Long paper)</span> -->
     <a href="https://arxiv.org/abs/2305.09756">Clinical Note Owns its Hierarchy: Multi-Level Hypergraph Neural Networks for Patient-Level Representation Learning</a>
     <br> Nayeon Kim*, <strong>Yinhua Piao*</strong>, Sun Kim | <a href="https://github.com/ny1031/TM-HGNN"><strong>Project</strong></a>
   </li>
@@ -57,14 +65,14 @@ My research interests lie in developing computational methods to solve complex p
 
   <li>
     <code class="language-plaintext highlighter-rouge">NeurIPS 2022</code>
-    <span style="color:red">(GLFrontiers Workshop)</span>
+    <!-- <span style="color:red">(GLFrontiers Workshop)</span> -->
     <a href="https://openreview.net/forum?id=z3SHKtoG5XZ">SPGP: Structure Prototype Guided Graph Pooling</a>
     , Sangseon Lee, Dohoon Lee, <strong>Yinhua Piao</strong>, Sun Kim
   </li>
 
   <li>
     <code class="language-plaintext highlighter-rouge">CSBJ 2022</code>
-    <span style="color:red">(Survey paper)</span>
+    <!-- <span style="color:red">(Survey paper)</span> -->
     <a href="https://www.sciencedirect.com/science/article/pii/S2001037022003300">On modeling and utilizing chemical compound information with deep learning technologies: A task-oriented approach</a>
     , Sangsoo Lim, Sangseon Lee, <strong>Yinhua Piao</strong>, MinGyu Choi, Dongmin Bang, Jeonghyeon Gu, Sun Kim
   </li>
