@@ -45,7 +45,7 @@ My research interests lie in developing computational methods to solve complex p
   <li>
     <code class="language-plaintext highlighter-rouge">ACL 2023</code>
     <!-- <span style="color:red">(Long paper)</span> -->
-    <a href="10.1016/j.csbj.2023.08.016">Exploring Chemical Space for Lead Identification by Propagating on Chemical Similarity Network</a>
+    <a href="https://doi.org/10.1016/j.csbj.2023.08.016">Exploring Chemical Space for Lead Identification by Propagating on Chemical Similarity Network</a>
     <br> Jungseob Yi, Sangseon Lee, Sangsoo Lim, Changyun Cho, <strong>Yinhua Piao</strong>, Marie Yeo, Dongkyu Kim, Sun Kim, Sunho Lee | <a href="https://github.com/J-Sub/ChemNP"><strong>Project</strong></a>
   </li>
 
