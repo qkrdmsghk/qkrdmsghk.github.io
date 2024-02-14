@@ -24,8 +24,9 @@ My research interests lie in developing computational methods to solve complex p
 
 
 # 🔥 News
-- *2023.08*: &nbsp;🎉🎉 co-work is accepted by CSBJ 2023 
-- *2023.05*: &nbsp;🎉🎉 co-work is accepted by ACL 2023 
+- *2024.02*: &nbsp;🎉🎉 I won the 30th Samsung HumanTech Paper Award.
+- *2023.08*: &nbsp;🎉🎉 co-work is accepted by CSBJ 2023.
+- *2023.05*: &nbsp;🎉🎉 co-work is accepted by ACL 2023.
 
 # 📝 Publications 
 
@@ -95,6 +96,7 @@ My research interests lie in developing computational methods to solve complex p
 </ul>
 
 # 🎖 Honors and Awards
+- *2024.02* Samsung HumanTech Paper Award. [\[link\]](https://cse.snu.ac.kr/node/54543)
 - *2022.04* AIIS Retreat Best Poster Award. [\[link\]](https://aiis.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=312)
 - *2022.09* Samsung HumanTech Paper Award (Bronze Prize) [\[link\]](https://cse.snu.ac.kr/node/54543)
 - *2022.02* AAAI Student Scholar Scholarship. 
