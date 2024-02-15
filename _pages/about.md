@@ -24,7 +24,7 @@ My research interests lie in developing computational methods to solve complex p
 
 
 # 🔥 News
-- *2024.02*: &nbsp;🎉🎉 I won the 30th Samsung HumanTech Paper Award.
+- *2024.02*: &nbsp;🎉🎉 I won the 30th Samsung HumanTech Paper Award. 
 - *2023.08*: &nbsp;🎉🎉 co-work is accepted by CSBJ 2023.
 - *2023.05*: &nbsp;🎉🎉 co-work is accepted by ACL 2023.
 
