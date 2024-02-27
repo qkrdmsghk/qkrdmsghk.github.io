@@ -18,6 +18,8 @@ My research interests lie in developing computational methods to solve complex p
 
 
 # 🔥 News
+- <span style="color: #2aa198">*2024.02*:</span> &nbsp;🎉🎉 my work is accepted by CVPR 2024. 
+- <span style="color: #2aa198">*2024.02*:</span> &nbsp;🎉🎉 co-work is accepted by ICLR tiny paper 2024. 
 - <span style="color: #2aa198">*2024.02*:</span> &nbsp;🎉🎉 I won the 30th Samsung HumanTech Paper Award. 
 - <span style="color: #2aa198">*2023.08*:</span> co-work is accepted by CSBJ 2023.
 - <span style="color: #2aa198">*2023.05*:</span> co-work is accepted by ACL 2023.
