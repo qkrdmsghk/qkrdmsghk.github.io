@@ -38,7 +38,7 @@ My research interests lie in developing computational methods to solve complex p
 </div>
 </div> -->
 
-<ul
+<ul>
   <li>
     <code class="language-plaintext highlighter-rouge">CVPR 2024</code>
     <!-- <span style="color:red">(Long paper)</span> -->
