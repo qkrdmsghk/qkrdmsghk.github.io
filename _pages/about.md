@@ -43,14 +43,14 @@ My research interests lie in developing computational methods to solve complex p
     <code class="language-plaintext highlighter-rouge">CVPR 2024</code>
     <!-- <span style="color:red">(Long paper)</span> -->
     Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments.
-    <br> <strong>Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim | <strong>Project</strong>
+    <br> <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim | <strong>Project</strong>
   </li>
 
   <li>
     <code class="language-plaintext highlighter-rouge">ICLR 2024 Tiny Paper Track</code>
     <!-- <span style="color:red">(Long paper)</span> -->
     Enhancing Drug-Drug Interaction Prediction with Context-Aware Architecture.
-    <br> Yijingxiu Lu, <strong>Yinhua Piao</strong>, Sun Kim | <strong>Project</strong>
+    <br> Yijingxiu Lu, <strong style="color: #dc322f">Yinhua Piao</strong>, Sun Kim | <strong>Project</strong>
   </li>
 
   <li>
