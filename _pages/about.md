@@ -18,12 +18,10 @@ My research interests lie in developing computational methods to solve complex p
 
 
 # 🔥 News
-- <span style="color: #2aa198">*2024.02*:</span> &nbsp;🎉🎉 my work is accepted by CVPR 2024. 
-- <span style="color: #2aa198">*2024.02*:</span> &nbsp;🎉🎉 co-work is accepted by ICLR tiny paper 2024. 
+- <span style="color: #2aa198">*2024.04*:</span> &nbsp;🎉🎉 Co-work is accepted by Computational and Structural Biotechnology Journal 2024. 
+- <span style="color: #2aa198">*2024.02*:</span> &nbsp;🎉🎉 Our work is accepted by CVPR 2024. 
+- <span style="color: #2aa198">*2024.02*:</span> &nbsp;🎉🎉 Co-work is accepted by ICLR tiny paper 2024. 
 - <span style="color: #2aa198">*2024.02*:</span> &nbsp;🎉🎉 I won the 30th Samsung HumanTech Paper Award. 
-- <span style="color: #2aa198">*2023.08*:</span> co-work is accepted by CSBJ 2023.
-- <span style="color: #2aa198">*2023.05*:</span> co-work is accepted by ACL 2023.
-
 # 📝 Publications 
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -39,18 +37,22 @@ My research interests lie in developing computational methods to solve complex p
 </div> -->
 
 <ul>
+    <li>
+    <code class="language-plaintext highlighter-rouge">CSBJ 2024</code>
+    <a href="https://doi.org/10.1016/j.csbj.2024.04.038">Multi-layered Knowledge Graph Neural Network Reveals Pathway-level Agreement of Three Breast Cancer Multi-gene Assays</a>
+    <br> Sangseon Lee*, Joonhyeong Park*, <strong style="color: #dc322f">Yinhua Piao</strong>, Dohoon Lee, Danyeong Lee, Sun Kim
+  </li>
+
   <li>
     <code class="language-plaintext highlighter-rouge">CVPR 2024</code>
-    <!-- <span style="color:red">(Long paper)</span> -->
-    Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments.
-    <br> <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim | <strong>Project</strong>
+    <a href="https://arxiv.org/abs/2403.01773">Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments</a>
+    <br> <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim
   </li>
 
   <li>
     <code class="language-plaintext highlighter-rouge">ICLR 2024 Tiny Paper Track</code>
-    <!-- <span style="color:red">(Long paper)</span> -->
-    Enhancing Drug-Drug Interaction Prediction with Context-Aware Architecture.
-    <br> Yijingxiu Lu, <strong style="color: #dc322f">Yinhua Piao</strong>, Sun Kim | <strong>Project</strong>
+    <a href="https://openreview.net/forum?id=e2Bkf1Bzh4">Enhancing Drug-Drug Interaction Prediction with Context-Aware Architecture</a>
+    <br> Yijingxiu Lu, <strong style="color: #dc322f">Yinhua Piao</strong>, Sun Kim | <a href="https://github.com/solanoon/CabidaDDI"><strong>Project</strong></a>
   </li>
 
   <li>
