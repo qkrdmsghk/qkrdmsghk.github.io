@@ -46,7 +46,7 @@ My research interests lie in developing computational methods to solve complex p
   <li>
     <code class="language-plaintext highlighter-rouge">CVPR 2024</code>
     <a href="https://arxiv.org/abs/2403.01773">Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments</a>
-    <br> <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim
+    <br> <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim | <a href="https://github.com/qkrdmsghk/GOODHSE"><strong>Project</strong></a>
   </li>
 
   <li>
