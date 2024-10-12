@@ -15,9 +15,6 @@ main:
   - title: "Educations"
     url: "/#-educations"
 
-  - title: "CV"
-    url: "/_data/Academic_CV.pdf"
-
   # - title: "Invited Talks"
   #   url: "/#-invited-talks"
 
