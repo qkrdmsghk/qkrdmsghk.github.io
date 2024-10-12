@@ -18,7 +18,7 @@ My research interests lie in developing computational methods to address complex
 
 
 # 🔥 News
-- <span style="color: #2aa198">*2024.09*:</span> &nbsp;🎉🎉 I won the Youlchon AI Star Fellowship 2024.
+- <span style="color: #2aa198">*2024.09*:</span> &nbsp;🎉🎉 I won the Youlchon AI Star Fellowship 2024. 
 - <span style="color: #2aa198">*2024.04*:</span> Co-work is accepted by Computational and Structural Biotechnology Journal 2024. 
 - <span style="color: #2aa198">*2024.02*:</span> Our work is accepted by CVPR 2024. 
 - <span style="color: #2aa198">*2024.02*:</span> Co-work is accepted by ICLR tiny paper 2024. 
