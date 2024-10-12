@@ -18,11 +18,11 @@ My research interests lie in developing computational methods to address complex
 
 
 # 🔥 News
-- <span style="color: #ef9214">*2024.09*:</span> &nbsp;🎉🎉 I won the Youlchon AI Star Fellowship 2024. 
-- <span style="color: #ef9214">*2024.04*:</span> Co-work is accepted by Computational and Structural Biotechnology Journal 2024. 
-- <span style="color: #ef9214">*2024.02*:</span> Our work is accepted by CVPR 2024. 
-- <span style="color: #ef9214">*2024.02*:</span> Co-work is accepted by ICLR tiny paper 2024. 
-- <span style="color: #ef9214">*2024.02*:</span> I won the 30th Samsung HumanTech Paper Award. 
+- <span style="color: #D56D53">*2024.09*:</span> &nbsp;🎉🎉 I won the Youlchon AI Star Fellowship 2024. 
+- <span style="color: #D56D53">*2024.04*:</span> Co-work is accepted by Computational and Structural Biotechnology Journal 2024. 
+- <span style="color: #D56D53">*2024.02*:</span> Our work is accepted by CVPR 2024. 
+- <span style="color: #D56D53">*2024.02*:</span> Co-work is accepted by ICLR tiny paper 2024. 
+- <span style="color: #D56D53">*2024.02*:</span> I won the 30th Samsung HumanTech Paper Award. 
 # 📝 Publications 
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -108,17 +108,17 @@ My research interests lie in developing computational methods to address complex
 </ul>
 
 # 🎖 Honors and Awards
-- <span style="color: #ef9214">*[2024.09]*</span> Youlchon AI Star Fellowship. 
-- <span style="color: #ef9214">*[2024.02]*</span> The 30th Samsung HumanTech Paper Award. 
-- <span style="color: #ef9214">*[2022.04]*</span> AIIS Retreat Best Poster Award. [\[link\]](https://aiis.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=312)
-- <span style="color: #ef9214">*[2022.09]*</span> The 27th Samsung HumanTech Paper Award (Bronze Prize) [\[link\]](https://cse.snu.ac.kr/node/54543)
-- <span style="color: #ef9214">*[2022.02]*</span> AAAI Student Scholar Scholarship. 
-- <span style="color: #ef9214">*[2020.06 - 2022.01]*</span> SNU Global Scholarships II. [\[link\]](https://oia.snu.ac.kr/snu-global-scholarships-iii)
+- <span style="color: #D56D53">*[2024.09]*</span> Youlchon AI Star Fellowship. 
+- <span style="color: #D56D53">*[2024.02]*</span> The 30th Samsung HumanTech Paper Award. 
+- <span style="color: #D56D53">*[2022.04]*</span> AIIS Retreat Best Poster Award. [\[link\]](https://aiis.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=312)
+- <span style="color: #D56D53">*[2022.09]*</span> The 27th Samsung HumanTech Paper Award (Bronze Prize) [\[link\]](https://cse.snu.ac.kr/node/54543)
+- <span style="color: #D56D53">*[2022.02]*</span> AAAI Student Scholar Scholarship. 
+- <span style="color: #D56D53">*[2020.06 - 2022.01]*</span> SNU Global Scholarships II. [\[link\]](https://oia.snu.ac.kr/snu-global-scholarships-iii)
 
 # 📖 Educations
-- <span style="color: #ef9214">*[2020.09 - 2023.05 (now)]*</span> Ph.D. Candidate in Computer Science and Engineering, Seoul National University.
-- <span style="color: #ef9214">*[2018.09 - 2020.06]*</span> M.S. Student in Computer Science and Engineering, Seoul National University.
-- <span style="color: #ef9214">*[2014.09 - 2018.06]*</span> B.S. Student in Software Engineering, Jilin University.
+- <span style="color: #D56D53">*[2020.09 - 2023.05 (now)]*</span> Ph.D. Candidate in Computer Science and Engineering, Seoul National University.
+- <span style="color: #D56D53">*[2018.09 - 2020.06]*</span> M.S. Student in Computer Science and Engineering, Seoul National University.
+- <span style="color: #D56D53">*[2014.09 - 2018.06]*</span> B.S. Student in Software Engineering, Jilin University.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
