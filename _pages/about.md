@@ -116,7 +116,7 @@ My research interests lie in developing computational methods to address complex
 - <span style="color: #D56D53">*[2020.06 - 2022.01]*</span> SNU Global Scholarships II. [\[link\]](https://oia.snu.ac.kr/snu-global-scholarships-iii)
 
 # 📖 Educations
-- <span style="color: #D56D53">*[2020.09 - 2023.05 (now)]*</span> Ph.D. Candidate in Computer Science and Engineering, Seoul National University.
+- <span style="color: #D56D53">*[2020.09 - now]*</span> Ph.D. Candidate in Computer Science and Engineering, Seoul National University.
 - <span style="color: #D56D53">*[2018.09 - 2020.06]*</span> M.S. Student in Computer Science and Engineering, Seoul National University.
 - <span style="color: #D56D53">*[2014.09 - 2018.06]*</span> B.S. Student in Software Engineering, Jilin University.
 
