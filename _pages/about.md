@@ -25,18 +25,91 @@ My research interests lie in developing computational methods to address complex
 - <span style="color: #D56D53">*2024.02*:</span> I won the 30th Samsung HumanTech Paper Award. 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/real3d.png' alt="sym" width="100%"></div></div>
+
+  <!-- <li>
+    <code class="language-plaintext highlighter-rouge">CVPR 2024</code>
+    <a href="https://arxiv.org/abs/2403.01773">Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments</a>
+    <br> <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim | <a href="https://github.com/qkrdmsghk/GOODHSE"><strong>Project</strong></a>
+  </li> -->
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/cvpr2024.png' alt="sym" width="100%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments](https://arxiv.org/abs/2403.01773)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+<strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim 
+
+[**Project**](https://github.com/qkrdmsghk/GOODHSE)
+- Out-of-distribution generalization methods in chemical domain. 
+</div>
+</div>
+
+<!-- <li> -->
+  <!-- <code class="language-plaintext highlighter-rouge">ACL 2023</code> -->
+  <!-- <span style="color:red">(Long paper)</span> -->
+  <!-- <a href="https://arxiv.org/abs/2305.09756">Clinical Note Owns its Hierarchy: Multi-Level Hypergraph Neural Networks for Patient-Level Representation Learning</a> -->
+  <!-- <br> Nayeon Kim*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Sun Kim | <a href="https://github.com/ny1031/TM-HGNN"><strong>Project</strong></a> -->
+<!-- </li> -->
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/acl2023.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box-text' markdown="1">
+
+[Clinical Note Owns its Hierarchy: Multi-Level Hypergraph Neural Networks for Patient-Level Representation Learning](https://arxiv.org/abs/2305.09756)
+
+Nayeon Kim*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Sun Kim 
+
+[**Project**](https://github.com/ny1031/TM-HGNN)
+- Clinical notes, Patient stratification.
+</div>
+</div>
+
+
+  <!-- <li>
+    <code class="language-plaintext highlighter-rouge">IJMS 2022</code>
+    <span style="color:red">(Long paper)</span>
+    <a href="https://www.mdpi.com/1422-0067/23/22/13919">DRPreter: Interpretable Anticancer Drug Response Prediction Using Knowledge-Guided Graph Neural Networks and Transformer</a>
+    <br> Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang, Sun Kim, Kyuri Jo | <a href="https://github.com/babaling/DRPreter"><strong>Project</strong></a>
+  </li> -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJMS 2022</div><img src='images/ijms2022.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box-text' markdown="1">
+
+[DRPreter: Interpretable Anticancer Drug Response Prediction Using Knowledge-Guided Graph Neural Networks and Transformer](https://www.mdpi.com/1422-0067/23/22/13919)
+
+Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang, Sun Kim, Kyuri Jo
+
+[**Project**](https://github.com/babaling/DRPreter)
+- Drug response prediction using knowledge graph.
+</div>
+</div>
+
 <!-- 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+  <li>
+    <code class="language-plaintext highlighter-rouge">AAAI 2022</code>
+    <span style="color:red">(Survey paper)</span>
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/21366">Sparse Structure learning via Graph Neural Networks for Inductive Document Classification</a>
+    <br> <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Dohoon Lee, Sun Kim| <a href="https://github.com/qkrdmsghk/TextSSL"><strong>Project</strong></a>
+  </li> -->
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/aaai2022.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box-text' markdown="1">
+
+[Sparse Structure learning via Graph Neural Networks for Inductive Document Classification](https://ojs.aaai.org/index.php/AAAI/article/view/21366)
+<strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Dohoon Lee, Sun Kim
+
+[**Project**](https://github.com/qkrdmsghk/TextSSL)
+- word ambiguity, word synonoymitiy, and dynamic context dependency.
 </div>
 </div>
+
+
 
 
 <ul>
@@ -45,13 +118,11 @@ My research interests lie in developing computational methods to address complex
     <a href="https://doi.org/10.1016/j.csbj.2024.04.038">Multi-layered Knowledge Graph Neural Network Reveals Pathway-level Agreement of Three Breast Cancer Multi-gene Assays</a>
     <br> Sangseon Lee*, Joonhyeong Park*, <strong style="color: #dc322f">Yinhua Piao</strong>, Dohoon Lee, Danyeong Lee, Sun Kim
   </li>
-
   <li>
     <code class="language-plaintext highlighter-rouge">CVPR 2024</code>
     <a href="https://arxiv.org/abs/2403.01773">Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments</a>
     <br> <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim | <a href="https://github.com/qkrdmsghk/GOODHSE"><strong>Project</strong></a>
   </li>
-
   <li>
     <code class="language-plaintext highlighter-rouge">ICLR 2024 Tiny Paper Track</code>
     <a href="https://openreview.net/forum?id=e2Bkf1Bzh4">Enhancing Drug-Drug Interaction Prediction with Context-Aware Architecture</a>
