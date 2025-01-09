@@ -58,7 +58,7 @@ My research interests lie in developing computational methods to address complex
 
 <div class='paper-box-text' markdown="1">
 
-[Clinical Note Owns its Hierarchy: Multi-Level Hypergraph Neural Networks for Patient-Level Representation Learning]<strong style="color: #dc322f">Long, Oral</strong>(https://arxiv.org/abs/2305.09756)
+[Clinical Note Owns its Hierarchy: Multi-Level Hypergraph Neural Networks for Patient-Level Representation Learning](https://arxiv.org/abs/2305.09756) <strong style="color: #dc322f">(Long, Oral)</strong>
 
 Nayeon Kim*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Sun Kim 
 
