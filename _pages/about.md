@@ -33,7 +33,7 @@ My research interests lie in developing computational methods to address complex
   </li> -->
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/cvpr2024.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/cvpr2024.png' alt="sym" width="70%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
@@ -42,7 +42,7 @@ My research interests lie in developing computational methods to address complex
 <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim 
 
 [**Project**](https://github.com/qkrdmsghk/GOODHSE)
-- Out-of-distribution generalization methods in chemical domain. 
+- Invariant subgraph extraction for OOD molecule graphs.
 </div>
 </div>
 
@@ -54,7 +54,7 @@ My research interests lie in developing computational methods to address complex
 <!-- </li> -->
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/acl2023.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/acl2023.png' alt="sym" width="70%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
@@ -63,7 +63,7 @@ My research interests lie in developing computational methods to address complex
 Nayeon Kim*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Sun Kim 
 
 [**Project**](https://github.com/ny1031/TM-HGNN)
-- Clinical notes, Patient stratification.
+- Knowledge-guided hypergraph construction methods for patient stratification.
 </div>
 </div>
 
@@ -75,7 +75,7 @@ Nayeon Kim*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Sun Kim
     <br> Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang, Sun Kim, Kyuri Jo | <a href="https://github.com/babaling/DRPreter"><strong>Project</strong></a>
   </li> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJMS 2022</div><img src='images/ijms2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJMS 2022</div><img src='images/ijms2022.png' alt="sym" width="70%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
@@ -84,7 +84,7 @@ Nayeon Kim*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Sun Kim
 Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang, Sun Kim, Kyuri Jo
 
 [**Project**](https://github.com/babaling/DRPreter)
-- Drug response prediction using knowledge graph.
+- Pathway-guided biological graph construction for drug response prediction.
 </div>
 </div>
 
@@ -97,15 +97,17 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
   </li> -->
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/aaai2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/aaai2022.png' alt="sym" width="70%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
 [Sparse Structure learning via Graph Neural Networks for Inductive Document Classification](https://ojs.aaai.org/index.php/AAAI/article/view/21366)
+
 <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Dohoon Lee, Sun Kim
 
 [**Project**](https://github.com/qkrdmsghk/TextSSL)
-- word ambiguity, word synonoymitiy, and dynamic context dependency.
+- Sentence-level sparse graph construction for document classification.
+<!-- - Word ambiguity, word synonoymitiy, and dynamic context dependency. -->
 </div>
 </div>
 
