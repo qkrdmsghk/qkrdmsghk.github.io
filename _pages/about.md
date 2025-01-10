@@ -18,14 +18,14 @@ My research interests lie in developing computational methods to address complex
 
 
 # 🔥 News
+- <span style="color: #D56D53">*2024.12*:</span> &nbsp;🎉🎉 I successfully defended my PhD! -- "Subgraph-informed Hierarchical Learning in Clinical and Biomeidcal Domains".  
 - <span style="color: #D56D53">*2024.09*:</span> &nbsp;🎉🎉 I won the Youlchon AI Star Fellowship 2024. 
 - <span style="color: #D56D53">*2024.04*:</span> Co-work is accepted by Computational and Structural Biotechnology Journal 2024. 
 - <span style="color: #D56D53">*2024.02*:</span> Our work is accepted by CVPR 2024. 
 - <span style="color: #D56D53">*2024.02*:</span> Co-work is accepted by ICLR tiny paper 2024. 
 - <span style="color: #D56D53">*2024.02*:</span> I won the 30th Samsung HumanTech Paper Award. 
+
 # 📝 Publications 
-
-
   <!-- <li>
     <code class="language-plaintext highlighter-rouge">CVPR 2024</code>
     <a href="https://arxiv.org/abs/2403.01773">Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments</a>
