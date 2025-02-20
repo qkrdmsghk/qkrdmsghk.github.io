@@ -18,8 +18,9 @@ My research interests lie in developing computational methods to address complex
 
 
 # 🔥 News
+- <span style="color: #D56D53">*2024.12*:</span> &nbsp;🎉🎉 I won the Outstanding Doctoral Dissertation Award, CSE, SNU.
 - <span style="color: #D56D53">*2024.12*:</span> &nbsp;🎉🎉 I successfully defended my PhD! -- "Subgraph-informed Hierarchical Learning in Clinical and Biomeidcal Domains".  
-- <span style="color: #D56D53">*2024.09*:</span> &nbsp;🎉🎉 I won the Youlchon AI Star Fellowship 2024. 
+- <span style="color: #D56D53">*2024.09*:</span> &nbsp; I won the Youlchon AI Star Fellowship 2024. 
 - <span style="color: #D56D53">*2024.04*:</span> Co-work is accepted by Computational and Structural Biotechnology Journal 2024. 
 - <span style="color: #D56D53">*2024.02*:</span> Our work is accepted by CVPR 2024. 
 - <span style="color: #D56D53">*2024.02*:</span> Co-work is accepted by ICLR tiny paper 2024. 
@@ -112,8 +113,6 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 </div>
 
 
-
-
 <ul>
     <li>
     <code class="language-plaintext highlighter-rouge">CSBJ 2024</code>
@@ -183,6 +182,7 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 </ul>
 
 # 🎖 Honors and Awards
+- <span style="color: #D56D53">*[2025.02]*</span> Outstanding Doctoral Dissertation Award, CSE, SNU.
 - <span style="color: #D56D53">*[2024.09]*</span> Youlchon AI Star Fellowship. 
 - <span style="color: #D56D53">*[2024.02]*</span> The 30th Samsung HumanTech Paper Award. 
 - <span style="color: #D56D53">*[2022.04]*</span> AIIS Retreat Best Poster Award. [\[link\]](https://aiis.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=312)
