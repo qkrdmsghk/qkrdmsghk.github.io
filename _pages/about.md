@@ -18,12 +18,15 @@ My research interests lie in developing computational methods to address complex
 
 
 # 🔥 News
-- <span style="color: #D56D53">*2025.02*:</span> &nbsp;🎉🎉 I won the Outstanding Doctoral Dissertation Award, CSE, SNU.
-- <span style="color: #D56D53">*2024.12*:</span> &nbsp;🎉🎉 I successfully defended my PhD! -- "Subgraph-informed Hierarchical Learning in Clinical and Biomeidcal Domains".  
+- <span style="color: #D56D53">*2025.05*:</span> &nbsp;🎉🎉 A paper got accepted by @ ICML 2025. 
+- <span style="color: #D56D53">*2025.04*:</span> &nbsp;🎉🎉 Two papers got accepted by MLGenX Workshop @ ICLR 2025.
+- <span style="color: #D56D53">*2025.03*:</span> &nbsp;🎉🎉 A paper got accepted by @ IEEE TCBB 2025.
+- <span style="color: #D56D53">*2025.02*:</span> I won the Outstanding Doctoral Dissertation Award, CSE, SNU.
+- <span style="color: #D56D53">*2024.12*:</span> I successfully defended my PhD! -- "Subgraph-informed Hierarchical Learning in Clinical and Biomeidcal Domains".  
 - <span style="color: #D56D53">*2024.09*:</span> I won the Youlchon AI Star Fellowship 2024. 
-- <span style="color: #D56D53">*2024.04*:</span> Co-work is accepted by Computational and Structural Biotechnology Journal 2024. 
-- <span style="color: #D56D53">*2024.02*:</span> Our work is accepted by CVPR 2024. 
-- <span style="color: #D56D53">*2024.02*:</span> Co-work is accepted by ICLR tiny paper 2024. 
+- <span style="color: #D56D53">*2024.04*:</span> One paper got accepted by Computational and Structural Biotechnology Journal 2024. 
+- <span style="color: #D56D53">*2024.02*:</span> One paper got accepted by @ CVPR 2024. 
+- <span style="color: #D56D53">*2024.02*:</span> One paper got accepted by @ ICLR tiny paper 2024. 
 - <span style="color: #D56D53">*2024.02*:</span> I won the 30th Samsung HumanTech Paper Award. 
 
 # 📝 Publications 
@@ -34,7 +37,7 @@ My research interests lie in developing computational methods to address complex
   </li> -->
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/cvpr2024.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/cvpr2024.png' alt="sym" width="80%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
@@ -55,7 +58,7 @@ My research interests lie in developing computational methods to address complex
 <!-- </li> -->
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/acl2023.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/acl2023.png' alt="sym" width="80%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
@@ -76,7 +79,7 @@ Nayeon Kim*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Sun Kim
     <br> Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang, Sun Kim, Kyuri Jo | <a href="https://github.com/babaling/DRPreter"><strong>Project</strong></a>
   </li> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJMS 2022</div><img src='images/ijms2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJMS 2022</div><img src='images/ijms2022.png' alt="sym" width="80%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
@@ -93,12 +96,12 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
   <li>
     <code class="language-plaintext highlighter-rouge">AAAI 2022</code>
     <span style="color:red">(Survey paper)</span>
-    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/21366">Sparse Structure learning via Graph Neural Networks for Inductive Document Classification</a>
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/21366">Sparse Structure Learning via Graph Neural Networks for Inductive Document Classification</a>
     <br> <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Dohoon Lee, Sun Kim| <a href="https://github.com/qkrdmsghk/TextSSL"><strong>Project</strong></a>
   </li> -->
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/aaai2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/aaai2022.png' alt="sym" width="80%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
@@ -108,13 +111,30 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 
 [**Project**](https://github.com/qkrdmsghk/TextSSL)
 - Sentence-level sparse graph construction for document classification.
-<!-- - Word ambiguity, word synonoymitiy, and dynamic context dependency. -->
+<!-- - Word ambiguity, word synonymity, and dynamic context dependency. -->
 </div>
 </div>
 
 
 <ul>
-    <li>
+  <li>
+    <code class="language-plaintext highlighter-rouge">ICML 2025</code>
+    <a href="https://openreview.net/forum?id=G2zzdbgKxl">Predicting Drug-likeness via Biomedical Knowledge Alignment and EM-like One-Class Boundary Optimization</a>
+    <be> Dongmin Bang, Inyoung Sung, <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Sun Kim | (ICLRw 2025)
+  </li>
+
+  <li>
+    <code class="language-plaintext highlighter-rouge">ICLRw 2025</code>
+    <a href="https://openreview.net/forum?id=lwK6AaIAJB">Aligning Molecules and Fragments in a Shared Embedding Space for RL-Based Molecule Generation</a>
+    <be> Youngkuk Kim, <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Sun Kim
+  </li>
+
+  <li>
+    <code class="language-plaintext highlighter-rouge">TCBB 2025</code>
+    <a href="https://ieeexplore.ieee.org/abstract/document/10925899">Context-Aware Hierarchical Fusion for Drug Relational Learning</a>
+    <br> Yijingxiu Lu, <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Sun Kim
+  </li>
+  <li>
     <code class="language-plaintext highlighter-rouge">CSBJ 2024</code>
     <a href="https://doi.org/10.1016/j.csbj.2024.04.038">Multi-layered Knowledge Graph Neural Network Reveals Pathway-level Agreement of Three Breast Cancer Multi-gene Assays</a>
     <br> Sangseon Lee*, Joonhyeong Park*, <strong style="color: #dc322f">Yinhua Piao</strong>, Dohoon Lee, Danyeong Lee, Sun Kim
@@ -167,7 +187,7 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
   <li>
     <code class="language-plaintext highlighter-rouge">AAAI 2022</code>
     <!-- <span style="color:red">(Survey paper)</span> -->
-    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/21366">Sparse Structure learning via Graph Neural Networks for Inductive Document Classification</a>
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/21366">Sparse Structure Learning via Graph Neural Networks for Inductive Document Classification</a>
     <br> <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Dohoon Lee, Sun Kim| <a href="https://github.com/qkrdmsghk/TextSSL"><strong>Project</strong></a>
   </li>
 
