@@ -18,51 +18,22 @@ My research interests lie in developing computational methods to address complex
 
 
 # 🔥 News
-<div class="news-box">
-  <ul>
-    <li><strong>2025.05:</strong> 🎉 A paper got accepted by @ ICML 2025.</li>
-    <li><strong>2025.04:</strong> 🎉 Two papers got accepted by MLGenX Workshop @ ICLR 2025.</li>
-    <li><strong>2025.03:</strong> 🎉 A paper got accepted by @ IEEE TCBB 2025.</li>
-    <li><strong>2025.02:</strong> 🏆 I won the Outstanding Doctoral Dissertation Award, CSE, SNU.</li>
-    <li><strong>2024.12:</strong> 🎓 I successfully defended my PhD! – “Subgraph-informed Hierarchical Learning in Clinical and Biomedical Domains”.</li>
-  </ul>
+
+- <span style="color: #D56D53">*2025.05*:</span> 🎉 A paper was accepted by @ ICML 2025. 
+- <span style="color: #D56D53">*2025.04*:</span> 🎉 Two papers was accepted by MLGenX Workshop @ ICLR 2025.
+- <span style="color: #D56D53">*2025.03*:</span> 🎉 A paper was accepted by @ IEEE TCBB 2025.
+- <span style="color: #D56D53">*2025.02*:</span> 🏆 I won the Outstanding Doctoral Dissertation Award, CSE, SNU.
+- <span style="color: #D56D53">*2024.12*:</span> 🎓 I successfully defended my PhD! -- "Subgraph-informed Hierarchical Learning in Clinical and Biomedical Domains".  
+
+<details>
+  <summary>Show More</summary>
+  - <span style="color: #D56D53">*2024.09*:</span> 🥇 I won the Youlchon AI Star Fellowship 2024. 
+  - <span style="color: #D56D53">*2024.04*:</span> 📄 One paper was accepted by Computational and Structural Biotechnology Journal 2024. 
+  - <span style="color: #D56D53">*2024.02*:</span> 📄 One paper was accepted by @ CVPR 2024. 
+  - <span style="color: #D56D53">*2024.02*:</span> 📄 One paper was accepted by @ ICLR tiny paper 2024. 
+  - <span style="color: #D56D53">*2024.02*:</span> 🥇 I won the 30th Samsung HumanTech Paper Award. 
+</details>
   
-  <div class="news-hidden" style="display: none;">📌 show all</div>
-  <ul>
-    <li><strong>2024.09:</strong> 🥇 I won the Youlchon AI Star Fellowship 2024.</li>
-    <li><strong>2024.04:</strong> 📄 One paper got accepted by CSBJ 2024.</li>
-    <li><strong>2024.02:</strong> 📄 One paper got accepted by @ CVPR 2024.</li>
-    <li><strong>2024.02:</strong> 📄 One paper got accepted by @ ICLR tiny paper 2024.</li>
-    <li><strong>2024.02:</strong> 🥇 I won the 30th Samsung HumanTech Paper Award.</li>
-  </ul>
-</div>
-
-<div class="toggle-news" style="cursor: pointer; color: #0077cc; margin-top: 0.5em;">
-  Show More ▼
-</div>
-
-<script>
-  $(".toggle-news").click(function () {
-    const hidden = $(".news-hidden");
-    hidden.slideToggle(300);
-    const isVisible = hidden.is(":visible");
-    $(this).text(isVisible ? "Show Less ▲" : "Show More ▼");
-  });
-</script>
-
-<!--
-- <span style="color: #D56D53">*2025.05*:</span> &nbsp;🎉🎉 A paper got accepted by @ ICML 2025. 
-- <span style="color: #D56D53">*2025.04*:</span> &nbsp;🎉🎉 Two papers got accepted by MLGenX Workshop @ ICLR 2025.
-- <span style="color: #D56D53">*2025.03*:</span> &nbsp;🎉🎉 A paper got accepted by @ IEEE TCBB 2025.
-- <span style="color: #D56D53">*2025.02*:</span> I won the Outstanding Doctoral Dissertation Award, CSE, SNU.
-- <span style="color: #D56D53">*2024.12*:</span> I successfully defended my PhD! -- "Subgraph-informed Hierarchical Learning in Clinical and Biomeidcal Domains".  
-- <span style="color: #D56D53">*2024.09*:</span> I won the Youlchon AI Star Fellowship 2024. 
-- <span style="color: #D56D53">*2024.04*:</span> One paper got accepted by Computational and Structural Biotechnology Journal 2024. 
-- <span style="color: #D56D53">*2024.02*:</span> One paper got accepted by @ CVPR 2024. 
-- <span style="color: #D56D53">*2024.02*:</span> One paper got accepted by @ ICLR tiny paper 2024. 
-- <span style="color: #D56D53">*2024.02*:</span> I won the 30th Samsung HumanTech Paper Award. 
--->
-
 # 📝 Selected Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/cvpr2024.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
