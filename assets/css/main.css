@@ -9335,6 +9335,39 @@ a:focus {
 
 
 
+.news-box {
+  max-width: 700px;
+  margin: 2em auto;
+  font-family: sans-serif;
+}
+
+.toggle-button {
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  padding: 0.8em 1em;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+}
+
+#news-list {
+  list-style-type: none;
+  padding-left: 1em;
+  margin-top: 1em;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+  max-height: 0;
+}
+
+#news-list.expanded {
+  max-height: 1000px; /* enough to show all items */
+}
+
+
 
  h1:before,.anchor:before {
      content: '';
