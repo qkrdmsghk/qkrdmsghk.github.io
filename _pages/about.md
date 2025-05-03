@@ -19,21 +19,36 @@ My research interests lie in developing computational methods to address complex
 
 # 🔥 News
 <div class="news-box">
-  <div class="header">📌 News & Updates</div>
-  <ul class="content" style="display: none;">
-    <li><strong>2025.05:</strong> 🎉🎉 A paper got accepted by @ ICML 2025.</li>
-    <li><strong>2025.04:</strong> 🎉🎉 Two papers got accepted by MLGenX Workshop @ ICLR 2025.</li>
-    <li><strong>2025.03:</strong> 🎉🎉 A paper got accepted by @ IEEE TCBB 2025.</li>
-    <li><strong>2025.02:</strong> I won the Outstanding Doctoral Dissertation Award, CSE, SNU.</li>
-    <li><strong>2024.12:</strong> I successfully defended my PhD! – “Subgraph-informed Hierarchical Learning in Clinical and Biomedical Domains”.</li>
-    <li><strong>2024.09:</strong> I won the Youlchon AI Star Fellowship 2024.</li>
-    <li><strong>2024.04:</strong> One paper got accepted by CSBJ 2024.</li>
-    <li><strong>2024.02:</strong> One paper got accepted by @ CVPR 2024.</li>
-    <li><strong>2024.02:</strong> One paper got accepted by @ ICLR tiny paper 2024.</li>
-    <li><strong>2024.02:</strong> I won the 30th Samsung HumanTech Paper Award.</li>
+  <ul>
+    <li><strong>2025.05:</strong> 🎉 A paper got accepted by @ ICML 2025.</li>
+    <li><strong>2025.04:</strong> 🎉 Two papers got accepted by MLGenX Workshop @ ICLR 2025.</li>
+    <li><strong>2025.03:</strong> 🎉 A paper got accepted by @ IEEE TCBB 2025.</li>
+    <li><strong>2025.02:</strong> 🏆 I won the Outstanding Doctoral Dissertation Award, CSE, SNU.</li>
+    <li><strong>2024.12:</strong> 🎓 I successfully defended my PhD! – “Subgraph-informed Hierarchical Learning in Clinical and Biomedical Domains”.</li>
+  </ul>
+  
+  <div class="news-hidden" style="display: none;">📌 show all</div>
+  <ul>
+    <li><strong>2024.09:</strong> 🥇 I won the Youlchon AI Star Fellowship 2024.</li>
+    <li><strong>2024.04:</strong> 📄 One paper got accepted by CSBJ 2024.</li>
+    <li><strong>2024.02:</strong> 📄 One paper got accepted by @ CVPR 2024.</li>
+    <li><strong>2024.02:</strong> 📄 One paper got accepted by @ ICLR tiny paper 2024.</li>
+    <li><strong>2024.02:</strong> 🥇 I won the 30th Samsung HumanTech Paper Award.</li>
   </ul>
 </div>
 
+<div class="toggle-news" style="cursor: pointer; color: #0077cc; margin-top: 0.5em;">
+  Show More ▼
+</div>
+
+<script>
+  $(".toggle-news").click(function () {
+    const hidden = $(".news-hidden");
+    hidden.slideToggle(300);
+    const isVisible = hidden.is(":visible");
+    $(this).text(isVisible ? "Show Less ▲" : "Show More ▼");
+  });
+</script>
 
 <!--
 - <span style="color: #D56D53">*2025.05*:</span> &nbsp;🎉🎉 A paper got accepted by @ ICML 2025. 
