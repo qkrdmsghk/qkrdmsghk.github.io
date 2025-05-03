@@ -119,8 +119,9 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 <ul>
   <li>
     <code class="language-plaintext highlighter-rouge">ICML 2025</code>
+    <span style="color:red">(ICLR MLGenX Workshop 2025)</span>
     <a href="https://openreview.net/forum?id=G2zzdbgKxl">Predicting Drug-likeness via Biomedical Knowledge Alignment and EM-like One-Class Boundary Optimization</a>
-    <be> Dongmin Bang, Inyoung Sung, <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Sun Kim | (ICLRw 2025)
+    <be> Dongmin Bang, Inyoung Sung, <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Sun Kim
   </li>
 
   <li>
@@ -158,14 +159,14 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 
   <li>
     <code class="language-plaintext highlighter-rouge">ACL 2023</code>
-    <span style="color:red">(Long paper)</span>
+    <span style="color:red">(Long Oral paper)</span>
     <a href="https://arxiv.org/abs/2305.09756">Clinical Note Owns its Hierarchy: Multi-Level Hypergraph Neural Networks for Patient-Level Representation Learning</a>
     <br> Nayeon Kim*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Sun Kim | <a href="https://github.com/ny1031/TM-HGNN"><strong>Project</strong></a>
   </li>
 
   <li>
     <code class="language-plaintext highlighter-rouge">IJMS 2022</code>
-    <!-- <span style="color:red">(Long paper)</span> -->
+    <!-- <span style="color:red">(Oral paper)</span> -->
     <a href="https://www.mdpi.com/1422-0067/23/22/13919">DRPreter: Interpretable Anticancer Drug Response Prediction Using Knowledge-Guided Graph Neural Networks and Transformer</a>
     <br> Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang, Sun Kim, Kyuri Jo | <a href="https://github.com/babaling/DRPreter"><strong>Project</strong></a>
   </li>
