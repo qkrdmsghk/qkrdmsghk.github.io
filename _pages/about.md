@@ -29,7 +29,7 @@ My research interests lie in developing computational methods to address complex
 - <span style="color: #D56D53">*2024.02*:</span> One paper got accepted by @ ICLR tiny paper 2024. 
 - <span style="color: #D56D53">*2024.02*:</span> I won the 30th Samsung HumanTech Paper Award. 
 
-# 📝 Publications 
+# 📝 Selected Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/cvpr2024.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -68,6 +68,7 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 </div>
 </div>
 
+# 📝 Publications 
 
 <ul>
   <li>
