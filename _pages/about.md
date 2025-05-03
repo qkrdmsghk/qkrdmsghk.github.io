@@ -34,13 +34,8 @@ My research interests lie in developing computational methods to address complex
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/cvpr2024.png' alt="sym"></div></div>
 
 <div class='paper-box-text' markdown="1">
-
 [Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments](https://arxiv.org/abs/2403.01773)
-
-<strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim 
-
-[**Project**](https://github.com/qkrdmsghk/GOODHSE)
-- Invariant subgraph extraction for OOD molecule graphs.
+<strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim | [**Project**](https://github.com/qkrdmsghk/GOODHSE)
 </div>
 </div>
 
@@ -48,26 +43,18 @@ My research interests lie in developing computational methods to address complex
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/acl2023.png' alt="sym"></div></div>
 
 <div class='paper-box-text' markdown="1">
-
 [Clinical Note Owns its Hierarchy: Multi-Level Hypergraph Neural Networks for Patient-Level Representation Learning](https://arxiv.org/abs/2305.09756) <strong style="color: #dc322f">(Long, Oral)</strong>
-
-Nayeon Kim*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Sun Kim 
-
-[**Project**](https://github.com/ny1031/TM-HGNN)
-- Knowledge-guided hypergraph construction methods for patient stratification.
+Nayeon Kim*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Sun Kim | [**Project**](https://github.com/ny1031/TM-HGNN)
+<!-- - Knowledge-guided hypergraph construction methods for patient stratification. -->
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJMS 2022</div><img src='images/ijms2022.png' alt="sym"></div></div>
 
 <div class='paper-box-text' markdown="1">
-
 [DRPreter: Interpretable Anticancer Drug Response Prediction Using Knowledge-Guided Graph Neural Networks and Transformer](https://www.mdpi.com/1422-0067/23/22/13919)
-
-Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang, Sun Kim, Kyuri Jo
-
-[**Project**](https://github.com/babaling/DRPreter)
-- Pathway-guided biological graph construction for drug response prediction.
+Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang, Sun Kim, Kyuri Jo | [**Project**](https://github.com/babaling/DRPreter)
+<!-- - Pathway-guided biological graph construction for drug response prediction. -->
 </div>
 </div>
 
@@ -75,13 +62,9 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/aaai2022.png' alt="sym"></div></div>
 
 <div class='paper-box-text' markdown="1">
-
 [Sparse Structure learning via Graph Neural Networks for Inductive Document Classification](https://ojs.aaai.org/index.php/AAAI/article/view/21366)
-
-<strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Dohoon Lee, Sun Kim
-
-[**Project**](https://github.com/qkrdmsghk/TextSSL)
-- Sentence-level sparse graph construction for document classification.
+<strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Dohoon Lee, Sun Kim | [**Project**](https://github.com/qkrdmsghk/TextSSL)
+<!-- - Sentence-level sparse graph construction for document classification. -->
 <!-- - Word ambiguity, word synonymity, and dynamic context dependency. -->
 </div>
 </div>
