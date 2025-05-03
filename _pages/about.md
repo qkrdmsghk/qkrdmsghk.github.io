@@ -19,8 +19,8 @@ My research interests lie in developing computational methods to address complex
 
 # 🔥 News
 <div class="news-box">
-  <button class="toggle-button" onclick="toggleNews()">📌 News & Updates</button>
-  <ul id="news-list" class="collapsed">
+  <div class="header">📌 News & Updates</div>
+  <ul class="content" style="display: none;">
     <li><strong>2025.05:</strong> 🎉🎉 A paper got accepted by @ ICML 2025.</li>
     <li><strong>2025.04:</strong> 🎉🎉 Two papers got accepted by MLGenX Workshop @ ICLR 2025.</li>
     <li><strong>2025.03:</strong> 🎉🎉 A paper got accepted by @ IEEE TCBB 2025.</li>
