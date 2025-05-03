@@ -97,7 +97,7 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
   <li>
     <code class="language-plaintext highlighter-rouge">ICLRw 2025</code>
     <a href="https://openreview.net/forum?id=lwK6AaIAJB">Aligning Molecules and Fragments in a Shared Embedding Space for RL-Based Molecule Generation</a>
-    <be> Youngkuk Kim, <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Sun Kim
+    <br> Youngkuk Kim, <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Sun Kim
   </li>
   <li>
     <code class="language-plaintext highlighter-rouge">TCBB 2025</code>
