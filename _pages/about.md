@@ -210,14 +210,9 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 - <span style="color: #D56D53">*[2022.02]*</span> AAAI Student Scholar Scholarship. 
 - <span style="color: #D56D53">*[2020.06 - 2022.01]*</span> SNU Global Scholarships II. [\[link\]](https://oia.snu.ac.kr/snu-global-scholarships-iii)
 
+
 # 📖 Educations
-- <span style="color: #D56D53">*[2020.09 - now]*</span> Ph.D. Candidate in Computer Science and Engineering, Seoul National University.
-- <span style="color: #D56D53">*[2018.09 - 2020.06]*</span> M.S. Student in Computer Science and Engineering, Seoul National University.
-- <span style="color: #D56D53">*[2014.09 - 2018.06]*</span> B.S. Student in Software Engineering, Jilin University.
+- <span style="color: #D56D53">2020.09 - Present</span>: Ph.D. in Computer Science, Seoul National University  
+- <span style="color: #D56D53">2018.03 - 2020.08</span>: M.S. in Computer Science, Seoul National University  
+- <span style="color: #D56D53">2014.09 - 2018.06</span>: B.S. in Computer Science, Jilin University  
 
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
-
-<!-- # 💻 Internships --> 
-<!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
