@@ -9274,9 +9274,8 @@ a:focus {
      flex-direction: row;
      flex-wrap: wrap;
      border-bottom: 1px #efefef solid;
-     padding: 2em 0 2em 0;
-     max-width: 700px; /* add!! */
-     margin: 0 auto;
+     padding: 2em 0;
+     max-width: 700px;
  }
  
  .paper-box .paper-box-image {
