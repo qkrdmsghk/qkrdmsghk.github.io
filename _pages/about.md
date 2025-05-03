@@ -32,7 +32,6 @@ My research interests lie in developing computational methods to address complex
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/cvpr2024.png' alt="sym"></div></div>
-
 <div class='paper-box-text' markdown="1">
 [Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments](https://arxiv.org/abs/2403.01773)
 <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Yijingxiu Lu, Sun Kim | [**Project**](https://github.com/qkrdmsghk/GOODHSE)
