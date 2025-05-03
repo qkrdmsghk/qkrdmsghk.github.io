@@ -27,11 +27,13 @@ My research interests lie in developing computational methods to address complex
 
 <details>
   <summary>Show More</summary>
-  - <span style="color: #D56D53">*2024.09*:</span> 🥇 I won the Youlchon AI Star Fellowship 2024. 
-  - <span style="color: #D56D53">*2024.04*:</span> 📄 One paper was accepted by Computational and Structural Biotechnology Journal 2024. 
-  - <span style="color: #D56D53">*2024.02*:</span> 📄 One paper was accepted by @ CVPR 2024. 
-  - <span style="color: #D56D53">*2024.02*:</span> 📄 One paper was accepted by @ ICLR tiny paper 2024. 
-  - <span style="color: #D56D53">*2024.02*:</span> 🥇 I won the 30th Samsung HumanTech Paper Award. 
+  <ul>
+    <li><span style="color: #D56D53"><strong>2024.09</strong>:</span> 🥇 I won the Youlchon AI Star Fellowship 2024.</li>
+    <li><span style="color: #D56D53"><strong>2024.04</strong>:</span> 📄 One paper was accepted by Computational and Structural Biotechnology Journal 2024.</li>
+    <li><span style="color: #D56D53"><strong>2024.02</strong>:</span> 📄 One paper was accepted by @ CVPR 2024.</li>
+    <li><span style="color: #D56D53"><strong>2024.02</strong>:</span> 📄 One paper was accepted by @ ICLR tiny paper 2024.</li>
+    <li><span style="color: #D56D53"><strong>2024.02</strong>:</span> 🥇 I won the 30th Samsung HumanTech Paper Award.</li>
+  </ul>
 </details>
   
 # 📝 Selected Publications 
