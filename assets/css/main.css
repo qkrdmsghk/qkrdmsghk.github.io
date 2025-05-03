@@ -9274,7 +9274,9 @@ a:focus {
      flex-direction: row;
      flex-wrap: wrap;
      border-bottom: 1px #efefef solid;
-     padding: 2em 0 2em 0
+     padding: 2em 0 2em 0;
+     max-width: 700px; /* add!! */
+     margin: 0 auto;
  }
  
  .paper-box .paper-box-image {
@@ -9285,7 +9287,7 @@ a:focus {
  }
  
  .paper-box .paper-box-image img {
-     max-width: 400px;
+     max-width: 250px;
      box-shadow: 3px 3px 6px #888;
      object-fit: cover
  }
@@ -9298,8 +9300,8 @@ a:focus {
  @media (min-width: 48em) {
      .paper-box .paper-box-image {
          justify-content:left;
-         min-width: 200px;
-         max-width: 40%;
+         min-width: 150px;
+         max-width: 30%;
          order: 1
      }
  
