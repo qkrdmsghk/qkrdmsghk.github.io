@@ -18,6 +18,24 @@ My research interests lie in developing computational methods to address complex
 
 
 # 🔥 News
+<div class="news-box">
+  <button class="toggle-button" onclick="toggleNews()">📌 News & Updates</button>
+  <ul id="news-list" class="collapsed">
+    <li><strong>2025.05:</strong> 🎉🎉 A paper got accepted by @ ICML 2025.</li>
+    <li><strong>2025.04:</strong> 🎉🎉 Two papers got accepted by MLGenX Workshop @ ICLR 2025.</li>
+    <li><strong>2025.03:</strong> 🎉🎉 A paper got accepted by @ IEEE TCBB 2025.</li>
+    <li><strong>2025.02:</strong> I won the Outstanding Doctoral Dissertation Award, CSE, SNU.</li>
+    <li><strong>2024.12:</strong> I successfully defended my PhD! – “Subgraph-informed Hierarchical Learning in Clinical and Biomedical Domains”.</li>
+    <li><strong>2024.09:</strong> I won the Youlchon AI Star Fellowship 2024.</li>
+    <li><strong>2024.04:</strong> One paper got accepted by CSBJ 2024.</li>
+    <li><strong>2024.02:</strong> One paper got accepted by @ CVPR 2024.</li>
+    <li><strong>2024.02:</strong> One paper got accepted by @ ICLR tiny paper 2024.</li>
+    <li><strong>2024.02:</strong> I won the 30th Samsung HumanTech Paper Award.</li>
+  </ul>
+</div>
+
+
+<!--
 - <span style="color: #D56D53">*2025.05*:</span> &nbsp;🎉🎉 A paper got accepted by @ ICML 2025. 
 - <span style="color: #D56D53">*2025.04*:</span> &nbsp;🎉🎉 Two papers got accepted by MLGenX Workshop @ ICLR 2025.
 - <span style="color: #D56D53">*2025.03*:</span> &nbsp;🎉🎉 A paper got accepted by @ IEEE TCBB 2025.
@@ -28,9 +46,9 @@ My research interests lie in developing computational methods to address complex
 - <span style="color: #D56D53">*2024.02*:</span> One paper got accepted by @ CVPR 2024. 
 - <span style="color: #D56D53">*2024.02*:</span> One paper got accepted by @ ICLR tiny paper 2024. 
 - <span style="color: #D56D53">*2024.02*:</span> I won the 30th Samsung HumanTech Paper Award. 
+-->
 
 # 📝 Selected Publications 
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/cvpr2024.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 [Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments](https://arxiv.org/abs/2403.01773)
