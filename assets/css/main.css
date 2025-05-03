@@ -9271,7 +9271,7 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  gap: 1em;
+/*   gap: 1em; */
   border-bottom: 1px solid #efefef;
   padding: 1.5em 0;
   width: 90%;
