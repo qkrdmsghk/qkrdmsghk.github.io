@@ -9292,12 +9292,9 @@ a:focus {
  }
  
  .paper-box .paper-box-image img {
-     width: 100%;
-     height: auto;
-     max-height: 180px;
+     max-width: 200px;
      box-shadow: 3px 3px 6px #888;
-     object-fit: cover;
-     border-radius: 6px;
+     object-fit: cover
  }
  
  .paper-box .paper-box-text {
