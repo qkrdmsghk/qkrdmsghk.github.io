@@ -213,7 +213,7 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 
 
 # 📖 Educations
-- <span style="color: #D56D53">2020.09 - Present</span>: Ph.D. in Computer Science, Seoul National University  
-- <span style="color: #D56D53">2018.03 - 2020.08</span>: M.S. in Computer Science, Seoul National University  
-- <span style="color: #D56D53">2014.09 - 2018.06</span>: B.S. in Computer Science, Jilin University  
+- <span style="color: #D56D53">*[2020.09 - Present]*</span>: Ph.D. in Computer Science, Seoul National University  
+- <span style="color: #D56D53">*[2018.03 - 2020.08]*</span>: M.S. in Computer Science, Seoul National University  
+- <span style="color: #D56D53">*[2014.09 - 2018.06]*</span>: B.S. in Computer Science, Jilin University  
 
