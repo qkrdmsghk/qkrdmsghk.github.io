@@ -32,6 +32,8 @@ redirect_from:
     bridging structural and semantic gaps in complex biomedical data</li>
 </ul>
 
+<hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+
   <p style="font-size: 16px; color: #2C3E50;">
     🚀 My long-term goal is to develop <strong>trustworthy AI systems</strong> 
     that contribute to <strong style="color: #27AE60;">personalized medicine</strong>, 
@@ -39,6 +41,7 @@ redirect_from:
   </p>
   <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
 
+</div>
 
 <!-- <span class='anchor' id='about-me'></span> -->
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=mQEG6VcAAAAJ'>google scholar citations <strong><span id='total_cit'>??+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=mQEG6VcAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
@@ -191,5 +194,3 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 - <span style="color: #D56D53">*[2020.09 - Present]*</span>: Ph.D. in Computer Science, Seoul National University  
 - <span style="color: #D56D53">*[2018.03 - 2020.08]*</span>: M.S. in Computer Science, Seoul National University  
 - <span style="color: #D56D53">*[2014.09 - 2018.06]*</span>: B.S. in Computer Science, Jilin University  
-
-</div>
