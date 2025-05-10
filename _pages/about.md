@@ -8,52 +8,38 @@ redirect_from:
   - /about.html
 --- 
 
-<div style="font-family: 'Segoe UI', Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px;">
+<!-- <div style="font-family: 'Segoe UI', Roboto, sans-serif; "> -->
+<div style="font-family: 'Segoe UI', Roboto, sans-serif;">
 
   <h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">👩🏻‍💻 Yinhua Piao</h2>
   <p style="font-size: 16px; color: #7F8C8D; margin-top: 0;">Postdoctoral Researcher | Biomedical AI & Generalizable Graph Learning</p>
 
-  <p>Hi! I am a <span style="color:#2F80ED; font-weight:bold;">postdoctoral researcher</span> at the 
-    <span style="color:#2F80ED;">Bioinformatics Institute</span>, 
-    <strong>Seoul National University</strong>, working with 
-    <a href="https://bhi-kimlab.github.io/" target="_blank" style="color:#E67E22; text-decoration:none;"><strong>Prof. Sun Kim</strong></a> 
-    in the <strong>Bio & Health Informatics (BHI) Lab</strong>.
+  <p>Hi! I am a <span style="color:#D66AA7; font-weight:bold;">postdoctoral researcher</span> at the Bioinformatics Institute, Seoul National University, working with 
+    <a href="https://bhi-kimlab.github.io/" target="_blank" style="color:rgb(34, 73, 230); text-decoration:none;"><strong>Prof. Sun Kim</strong></a> 
+    in the <a href="https://bhi-kimlab.github.io/" target="_blank" style="color:rgb(34, 73, 230); text-decoration:none;">Bio & Health Informatics (BHI) Lab</a>. My research lies at the intersection of <code>graph machine learning</code>, <code> clinical informatics</code>, and <code> AI-driven drug discovery</code>. I build learning models that are:
+  🔹 <strong>Robust</strong> to distribution shifts,
+  🔹 <strong>Interpretable</strong> for clinical insight,
+  🔹 <strong>Generalizable</strong> across biomedical environments.
+   </p>
+
+<h3 style="color: #2C3E50;">🔬 Recent Research Focus</h3>
+<ul style="margin-left: 1em;">
+  <li>🧠 <strong>Subgraph-informed hierarchical models</strong>  
+    for clinical document classification and patient trajectory modeling</li>
+  <li>🧪 <strong>Invariant representation learning</strong>  
+    to enhance molecular property prediction across diverse chemical domains</li>
+  <li>🧬 <strong>Multi-modal integration</strong>  
+    bridging structural and semantic gaps in complex biomedical data</li>
+</ul>
+
+  <p style="font-size: 16px; color: #2C3E50;">
+    🚀 My long-term goal is to develop <strong>trustworthy AI systems</strong> 
+    that contribute to <strong style="color: #27AE60;">personalized medicine</strong>, 
+    <strong style="color: #9B51E0;">reliable healthcare</strong>, and impactful <strong style="color: #E74C3C;">real-world biomedical applications</strong>.
   </p>
-  <p>My research lies at the intersection of 
-    <span style="color:#9B51E0; font-weight:bold;">graph machine learning</span>, 
-    <span style="color:#27AE60; font-weight:bold;">clinical informatics</span>, and 
-    <span style="color:#F2994A; font-weight:bold;">AI-driven drug discovery</span>. 
-    I build learning models that are:
-  </p>
-
-  <ul style="margin-left: 1em;">
-    <li>🔹 <strong style="color:#E67E22;">Robust</strong> to distribution shifts</li>
-    <li>🔹 <strong style="color:#2F80ED;">Interpretable</strong> for clinical insight</li>
-    <li>🔹 <strong style="color:#27AE60;">Generalizable</strong> across biomedical environments</li>
-  </ul>
-
-  <h3 style="color:#34495E; margin-top: 30px;">🔬 Recent Research Focus</h3>
-  <ul style="margin-left: 1em;">
-    <li>🧠 <strong style="color:#9B51E0;">Subgraph-informed hierarchical models</strong>  
-      for clinical document classification and patient trajectory modeling
-    </li>
-    <li>🧪 <strong style="color:#F2994A;">Invariant representation learning</strong>  
-      to enhance molecular property prediction across diverse chemical domains
-    </li>
-    <li>🧬 <strong style="color:#2F80ED;">Multi-modal integration</strong>  
-      bridging structural and semantic gaps in complex biomedical data
-    </li>
-  </ul>
-
   <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
 
-  <p style="font-size: 16px; color:#2C3E50;">
-    🚀 My long-term goal is to develop <strong style="color:#E74C3C;">trustworthy AI systems</strong> 
-    that contribute to <strong style="color:#27AE60;">personalized medicine</strong>, 
-    <strong style="color:#9B51E0;">fair healthcare</strong>, and impactful real-world biomedical applications.
-  </p>
 
-</div>
 <!-- <span class='anchor' id='about-me'></span> -->
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=mQEG6VcAAAAJ'>google scholar citations <strong><span id='total_cit'>??+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=mQEG6VcAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -67,7 +53,7 @@ redirect_from:
 - <span style="color: #D56D53">*2024.12*:</span> 🎓 I successfully defended my PhD! -- "Subgraph-informed Hierarchical Learning in Clinical and Biomedical Domains".  
 
 <details>
-  <summary>Show More</summary>
+  <summary style="color:rgb(114, 173, 146);">Show More</summary>
   <ul>
     <li><span style="color: #D56D53"><strong>2024.09</strong>:</span> 🥇 I won the Youlchon AI Star Fellowship 2024.</li>
     <li><span style="color: #D56D53"><strong>2024.04</strong>:</span> 📄 One paper was accepted by Computational and Structural Biotechnology Journal 2024.</li>
@@ -206,3 +192,4 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 - <span style="color: #D56D53">*[2018.03 - 2020.08]*</span>: M.S. in Computer Science, Seoul National University  
 - <span style="color: #D56D53">*[2014.09 - 2018.06]*</span>: B.S. in Computer Science, Jilin University  
 
+</div>
