@@ -21,7 +21,7 @@ redirect_from:
   🔹 <strong>Generalizable</strong> across biomedical environments.
    </p>
 
-<h3 style="color: #2C3E50;">🔬 Recent Research Focus</h3>
+<h2 style="color: #2C3E50;">🔬 Recent Research Focus</h3>
 <ul style="margin-left: -1em;">
   <li>🧠 <strong>Subgraph-informed hierarchical models</strong>  
     for clinical document classification and patient trajectory modeling</li>
@@ -30,15 +30,6 @@ redirect_from:
   <li>🧬 <strong>Multi-modal integration</strong>  
     bridging structural and semantic gaps in complex biomedical data</li>
 </ul>
-<!-- 
-<hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">
-  <p style="color: #2C3E50;">
-    🚀 My long-term goal is to develop <strong>trustworthy AI systems</strong> 
-    that contribute to <strong style="color: #27AE60;">personalized medicine</strong>, 
-    <strong style="color: #9B51E0;">reliable healthcare</strong>, and impactful <strong style="color: #E74C3C;">real-world biomedical applications</strong>.
-  </p>
-  <hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;"> -->
-
 
 <div style="border-left: 4px solid #27AE60; background:rgb(236, 233, 233); padding: 10px 20px; margin: 20px 20px; border-radius: 8px; font-family: 'Segoe UI', sans-serif;">
   <p style="margin: 0; color: #2C3E50; font-size: 16px;">
@@ -51,26 +42,30 @@ redirect_from:
 
 </div>
 
-<!-- <span class='anchor' id='about-me'></span> -->
-<!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=mQEG6VcAAAAJ'>google scholar citations <strong><span id='total_cit'>??+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=mQEG6VcAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
+<h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">🔥 News</h2>
+<ul style="margin-left: -1em;">
+  <li> 🎉 <strong style="color: #D56D53">[2025.05]</strong> A paper was accepted by <code>ICML 2025</code>.</li>
+  
+  <li> 🎉 <strong style="color: #D56D53">[2025.04]</strong> Two papers was accepted by MLGenX Workshop @ <code>ICML 2025</code>.</li>
 
+  <li> 🎉 <strong style="color: #D56D53">[2025.03]</strong> A paper was accepted by <code>IEEE TCBB 2025</code>.</li>
 
-# 🔥 News
+  <li> 🏆 <strong style="color: #D56D53">[2025.02]</strong> I won the Outstanding Doctoral Dissertation Award, CSE, SNU.</li>
+  
+  <li> 🎓 <strong style="color: #D56D53">[2024.12]</strong> I successfully defended my PhD! -- "Subgraph-informed Hierarchical Learning in Clinical and Biomedical Domains".  
+</li>
 
-- <span style="color: #D56D53">*2025.05*:</span> 🎉 A paper was accepted by @ ICML 2025. 
-- <span style="color: #D56D53">*2025.04*:</span> 🎉 Two papers was accepted by MLGenX Workshop @ ICLR 2025.
-- <span style="color: #D56D53">*2025.03*:</span> 🎉 A paper was accepted by @ IEEE TCBB 2025.
-- <span style="color: #D56D53">*2025.02*:</span> 🏆 I won the Outstanding Doctoral Dissertation Award, CSE, SNU.
-- <span style="color: #D56D53">*2024.12*:</span> 🎓 I successfully defended my PhD! -- "Subgraph-informed Hierarchical Learning in Clinical and Biomedical Domains".  
+</ul>
 
 <details>
-  <summary style="color:rgb(114, 173, 146);">Show More</summary>
-  <ul>
-    <li><span style="color: #D56D53"><strong>2024.09</strong>:</span> 🥇 I won the Youlchon AI Star Fellowship 2024.</li>
-    <li><span style="color: #D56D53"><strong>2024.04</strong>:</span> 📄 One paper was accepted by Computational and Structural Biotechnology Journal 2024.</li>
-    <li><span style="color: #D56D53"><strong>2024.02</strong>:</span> 📄 One paper was accepted by @ CVPR 2024.</li>
-    <li><span style="color: #D56D53"><strong>2024.02</strong>:</span> 📄 One paper was accepted by @ ICLR tiny paper 2024.</li>
-    <li><span style="color: #D56D53"><strong>2024.02</strong>:</span> 🥇 I won the 30th Samsung HumanTech Paper Award.</li>
+  <summary style="margin-left: 0.8em;color:rgb(114, 173, 146);">Click Here and Show More</summary>
+
+  <ul style="margin-left: -1em;">
+    <li> 🥇 <strong>[2024.09]</strong> I won the Youlchon AI Star Fellowship 2024.</li>
+    <li> 📄 <strong>[2024.04]</strong> One paper was accepted by Computational and Structural Biotechnology Journal 2024.</li>
+    <li> 📄 <strong>[2024.02]</strong> One paper was accepted by @ CVPR 2024.</li>
+    <li> 📄 <strong>[2024.02]</strong> One paper was accepted by @ ICLR tiny paper 2024.</li>
+    <li> 🥇 <strong>[2024.02]</strong> I won the 30th Samsung HumanTech Paper Award.</li>
   </ul>
 </details>
   
