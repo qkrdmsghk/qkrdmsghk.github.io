@@ -16,14 +16,14 @@ redirect_from:
 
   <p>Hi! I am a <span style="color:#D66AA7; font-weight:bold;">postdoctoral researcher</span> at the Bioinformatics Institute, Seoul National University, working with 
     <a href="https://bhi-kimlab.github.io/" target="_blank" style="color:rgb(34, 73, 230); text-decoration:none;"><strong>Prof. Sun Kim</strong></a> 
-    in the <a href="https://bhi-kimlab.github.io/" target="_blank" style="color:rgb(34, 73, 230); text-decoration:none;">Bio & Health Informatics (BHI) Lab</a>. My research lies at the intersection of <code>graph machine learning</code>, <code> clinical informatics</code>, and <code> AI-driven drug discovery</code>. I build learning models that are:
+    in the <a href="https://bhi-kimlab.github.io/" target="_blank" style="color:rgb(34, 73, 230); text-decoration:none;">Bio & Health Informatics (BHI) Lab</a>. My research lies at the intersection of graph machine learning, clinical informatics, and AI-driven drug discovery. I build learning models that are:
   🔹 <strong>Robust</strong> to distribution shifts,
   🔹 <strong>Interpretable</strong> for clinical insight,
   🔹 <strong>Generalizable</strong> across biomedical environments.
    </p>
 
 <h3 style="color: #2C3E50;">🔬 Recent Research Focus</h3>
-<ul style="margin-left: 1em;">
+<ul style="margin-left: -1em;">
   <li>🧠 <strong>Subgraph-informed hierarchical models</strong>  
     for clinical document classification and patient trajectory modeling</li>
   <li>🧪 <strong>Invariant representation learning</strong>  
