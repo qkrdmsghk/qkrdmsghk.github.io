@@ -8,12 +8,53 @@ redirect_from:
   - /about.html
 --- 
 
+<div style="font-family: 'Segoe UI', Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px;">
 
-<span class='anchor' id='about-me'></span>
-Hello, my name is Yinhua Piao, and I am a Ph.D. student in computer science at Seoul National University (SNU). I received my Bachelor’s degree in Computer Science from Jilin University in 2018 and my Master’s degree in Computer Science from the [Bio & Health Informatics (BHI) lab](https://bhi-kimlab.github.io/) at SNU in 2020. Currently, I am pursuing a Doctoral degree and working with [Professor Sun Kim](https://bhi-kimlab.github.io/members/sun_kim.html) in the BHI Lab at SNU. 
+  <h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">👩🏻‍💻 Yinhua Piao</h2>
+  <p style="font-size: 16px; color: #7F8C8D; margin-top: 0;">Postdoctoral Researcher | Biomedical AI & Generalizable Graph Learning</p>
 
-My research interests lie in developing computational methods to address complex problems in clinical and biomedical domains, such as personalized healthcare data analysis and drug discovery. Specifically, I focus on graph representation learning models and explainable, robust techniques, aiming to improve personalized medicine.
+  <p>Hi! I am a <span style="color:#2F80ED; font-weight:bold;">postdoctoral researcher</span> at the 
+    <span style="color:#2F80ED;">Bioinformatics Institute</span>, 
+    <strong>Seoul National University</strong>, working with 
+    <a href="https://bhi-kimlab.github.io/" target="_blank" style="color:#E67E22; text-decoration:none;"><strong>Prof. Sun Kim</strong></a> 
+    in the <strong>Bio & Health Informatics (BHI) Lab</strong>.
+  </p>
+  <p>My research lies at the intersection of 
+    <span style="color:#9B51E0; font-weight:bold;">graph machine learning</span>, 
+    <span style="color:#27AE60; font-weight:bold;">clinical informatics</span>, and 
+    <span style="color:#F2994A; font-weight:bold;">AI-driven drug discovery</span>. 
+    I build learning models that are:
+  </p>
 
+  <ul style="margin-left: 1em;">
+    <li>🔹 <strong style="color:#E67E22;">Robust</strong> to distribution shifts</li>
+    <li>🔹 <strong style="color:#2F80ED;">Interpretable</strong> for clinical insight</li>
+    <li>🔹 <strong style="color:#27AE60;">Generalizable</strong> across biomedical environments</li>
+  </ul>
+
+  <h3 style="color:#34495E; margin-top: 30px;">🔬 Recent Research Focus</h3>
+  <ul style="margin-left: 1em;">
+    <li>🧠 <strong style="color:#9B51E0;">Subgraph-informed hierarchical models</strong>  
+      for clinical document classification and patient trajectory modeling
+    </li>
+    <li>🧪 <strong style="color:#F2994A;">Invariant representation learning</strong>  
+      to enhance molecular property prediction across diverse chemical domains
+    </li>
+    <li>🧬 <strong style="color:#2F80ED;">Multi-modal integration</strong>  
+      bridging structural and semantic gaps in complex biomedical data
+    </li>
+  </ul>
+
+  <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+
+  <p style="font-size: 16px; color:#2C3E50;">
+    🚀 My long-term goal is to develop <strong style="color:#E74C3C;">trustworthy AI systems</strong> 
+    that contribute to <strong style="color:#27AE60;">personalized medicine</strong>, 
+    <strong style="color:#9B51E0;">fair healthcare</strong>, and impactful real-world biomedical applications.
+  </p>
+
+</div>
+<!-- <span class='anchor' id='about-me'></span> -->
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=mQEG6VcAAAAJ'>google scholar citations <strong><span id='total_cit'>??+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=mQEG6VcAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
