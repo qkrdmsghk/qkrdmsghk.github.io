@@ -40,7 +40,7 @@ redirect_from:
   <hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;"> -->
 
 
-<div style="border-left: 4px solid #27AE60; background:rgb(227, 226, 226); padding: 16px 20px; margin: 20px 0; border-radius: 8px; font-family: 'Segoe UI', sans-serif;">
+<div style="border-left: 4px solid #27AE60; background:rgb(236, 233, 233); padding: 10px 20px; margin: 20px 20px; border-radius: 8px; font-family: 'Segoe UI', sans-serif;">
   <p style="margin: 0; color: #2C3E50; font-size: 16px;">
     🚀 <strong>My long-term goal</strong> is to develop <strong>trustworthy AI systems</strong> 
     that contribute to <strong style="color: #27AE60;">personalized medicine</strong>, 
