@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 --- 
 
-<!-- <div style="font-family: 'Segoe UI', Roboto, sans-serif; "> -->
 <div style="font-family: 'Segoe UI', Roboto, sans-serif;">
 
   <h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">👩🏻‍💻 Yinhua Piao</h2>
@@ -31,15 +30,24 @@ redirect_from:
   <li>🧬 <strong>Multi-modal integration</strong>  
     bridging structural and semantic gaps in complex biomedical data</li>
 </ul>
-
-<hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
-
-  <p style="font-size: 16px; color: #2C3E50;">
+<!-- 
+<hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;">
+  <p style="color: #2C3E50;">
     🚀 My long-term goal is to develop <strong>trustworthy AI systems</strong> 
     that contribute to <strong style="color: #27AE60;">personalized medicine</strong>, 
     <strong style="color: #9B51E0;">reliable healthcare</strong>, and impactful <strong style="color: #E74C3C;">real-world biomedical applications</strong>.
   </p>
-  <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+  <hr style="margin: 20px 0; border: none; border-top: 1px solid #ddd;"> -->
+
+
+<div style="border-left: 4px solid #27AE60; background:rgb(227, 226, 226); padding: 16px 20px; margin: 20px 0; border-radius: 8px; font-family: 'Segoe UI', sans-serif;">
+  <p style="margin: 0; color: #2C3E50; font-size: 16px;">
+    🚀 <strong>My long-term goal</strong> is to develop <strong>trustworthy AI systems</strong> 
+    that contribute to <strong style="color: #27AE60;">personalized medicine</strong>, 
+    <strong style="color: #9B51E0;">reliable healthcare</strong>, and impactful 
+    <strong style="color: #E74C3C;">real-world biomedical applications</strong>.
+  </p>
+</div>
 
 </div>
 
