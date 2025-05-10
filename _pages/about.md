@@ -21,7 +21,7 @@ redirect_from:
   🔹 <strong>Generalizable</strong> across biomedical environments.
    </p>
 
-<h2 style="color: #2C3E50;">🔬 Recent Research Focus</h3>
+<h2 style="color: #2C3E50;">🔬 Recent Research Focus</h2>
 <ul style="margin-left: -1em;">
   <li>🧠 <strong>Subgraph-informed hierarchical models</strong>  
     for clinical document classification and patient trajectory modeling</li>
@@ -44,11 +44,11 @@ redirect_from:
 
 <h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">🔥 News</h2>
 <ul style="margin-left: -1em;">
-  <li> 🎉 <strong style="color: #D56D53">[2025.05]</strong> A paper was accepted by <code>ICML 2025</code>.</li>
+  <li> 🎉 <strong style="color: #D56D53">[2025.05]</strong> A paper was accepted by @ICML 2025.</li>
   
-  <li> 🎉 <strong style="color: #D56D53">[2025.04]</strong> Two papers was accepted by MLGenX Workshop @ <code>ICML 2025</code>.</li>
+  <li> 🎉 <strong style="color: #D56D53">[2025.04]</strong> Two papers was accepted by MLGenX Workshop @ICML 2025.</li>
 
-  <li> 🎉 <strong style="color: #D56D53">[2025.03]</strong> A paper was accepted by <code>IEEE TCBB 2025</code>.</li>
+  <li> 🎉 <strong style="color: #D56D53">[2025.03]</strong> A paper was accepted by @IEEE TCBB 2025.</li>
 
   <li> 🏆 <strong style="color: #D56D53">[2025.02]</strong> I won the Outstanding Doctoral Dissertation Award, CSE, SNU.</li>
   
@@ -58,7 +58,7 @@ redirect_from:
 </ul>
 
 <details>
-  <summary style="margin-left: 0.8em;color:rgb(114, 173, 146);">Click Here and Show More</summary>
+  <summary style="margin-left: 0.8em; color:rgb(114, 173, 146);">Click Here and Show More</summary>
 
   <ul style="margin-left: -1em;">
     <li> 🥇 <strong>[2024.09]</strong> I won the Youlchon AI Star Fellowship 2024.</li>
@@ -69,7 +69,9 @@ redirect_from:
   </ul>
 </details>
   
-# 📝 Selected Publications 
+
+<h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">📝 Selected Publications </h2>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/cvpr2024.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 [Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments](https://arxiv.org/abs/2403.01773)
@@ -107,9 +109,10 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 </div>
 </div>
 
-# 📝 Publications 
 
-<ul>
+<h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">📝 Publications </h2>
+
+<ul style="margin-left: -1em;">
   <li>
     <code class="language-plaintext highlighter-rouge">ICML 2025</code>
     <span style="color:red">(ICLR MLGenX Workshop 2025)</span>
@@ -183,17 +186,22 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
   </li>
 </ul>
 
-# 🎖 Honors and Awards
-- <span style="color: #D56D53">*[2025.02]*</span> Outstanding Doctoral Dissertation Award, CSE, SNU.
-- <span style="color: #D56D53">*[2024.09]*</span> Youlchon AI Star Fellowship. 
-- <span style="color: #D56D53">*[2024.02]*</span> The 30th Samsung HumanTech Paper Award. 
-- <span style="color: #D56D53">*[2022.04]*</span> AIIS Retreat Best Poster Award. [\[link\]](https://aiis.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=312)
-- <span style="color: #D56D53">*[2022.09]*</span> The 27th Samsung HumanTech Paper Award (Bronze Prize) [\[link\]](https://cse.snu.ac.kr/node/54543)
-- <span style="color: #D56D53">*[2022.02]*</span> AAAI Student Scholar Scholarship. 
-- <span style="color: #D56D53">*[2020.06 - 2022.01]*</span> SNU Global Scholarships II. [\[link\]](https://oia.snu.ac.kr/snu-global-scholarships-iii)
+<h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">🎖 Honors and Awards</h2>
+
+<ul style="margin-left: -1em">
+<li> <strong style="color: #D56D53">[2025.02]</strong> Outstanding Doctoral Dissertation Award, CSE, SNU.</li>
+<li> <strong style="color: #D56D53">[2024.09]</strong> Youlchon AI Star Fellowship.</li>
+<li> <strong style="color: #D56D53">[2024.02]</strong> The 30th Samsung HumanTech Paper Award. </li>
+<li> <strong style="color: #D56D53">[2022.09]</strong> The 27th Samsung HumanTech Paper Award (Bronze Prize).<a href="https://cse.snu.ac.kr/node/54543"> [link]</a></li>
+<li> <strong style="color: #D56D53">[2022.04]</strong> AIIS Retreat Best Poster Award. <a href="https://aiis.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=312"> [link]</a></li>
+<li> <strong style="color: #D56D53">[2022.02]</strong> AAAI Student Scholar Scholarship. </li>
+<li> <strong style="color: #D56D53">[2020.06 - 2022.01]</strong> SNU Global Scholarships II. <a href="https://oia.snu.ac.kr/snu-global-scholarships-iii">[link]</a></li>
+</ul>
 
 
-# 📖 Educations
-- <span style="color: #D56D53">*[2020.09 - Present]*</span>: Ph.D. in Computer Science, Seoul National University  
-- <span style="color: #D56D53">*[2018.03 - 2020.08]*</span>: M.S. in Computer Science, Seoul National University  
-- <span style="color: #D56D53">*[2014.09 - 2018.06]*</span>: B.S. in Computer Science, Jilin University  
+<h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">📖 Educations</h2>
+<ul style="margin-left: -1em">
+<li> <strong style="color: #D56D53">[2020.09 - 2024.12]</strong> Ph.D. in Computer Science, Seoul National University.</li>
+<li> <strong style="color: #D56D53">[2018.09 - 2020.07]</strong> M.S in Computer Science, Seoul National University.</li>
+<li> <strong style="color: #D56D53">[2014.09 - 2018.07]</strong> B.S in Software Engineering, Jilin University.</li>
+</ul>
