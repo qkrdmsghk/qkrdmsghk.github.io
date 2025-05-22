@@ -115,7 +115,7 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 <ul style="margin-left: -1em;">
   <li>
     <code class="language-plaintext highlighter-rouge">ICML 2025</code>
-    <span style="color:red">(ICLR MLGenX Workshop 2025)</span>
+<!--     <span style="color:red">(ICLR MLGenX Workshop 2025)</span> -->
     <a href="https://openreview.net/forum?id=G2zzdbgKxl">Predicting Drug-likeness via Biomedical Knowledge Alignment and EM-like One-Class Boundary Optimization</a>
     <br> Dongmin Bang, Inyoung Sung, <strong style="color: #dc322f">Yinhua Piao</strong>, Sangseon Lee, Sun Kim
   </li>
