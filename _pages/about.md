@@ -13,9 +13,9 @@ redirect_from:
   <h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">👩🏻‍💻 Yinhua Piao</h2>
   <p style="font-size: 16px; color: #7F8C8D; margin-top: 0;">Postdoctoral Researcher | Biomedical AI & Generalizable Graph Learning</p>
 
-  <p>Hi! I am a <span style="color:#D66AA7; font-weight:bold;">postdoctoral researcher</span> at the Bioinformatics Institute, Seoul National University, working with 
+  <p>Hi! I am a <span style="color:#D66AA7; font-weight:bold;">postdoctoral researcher</span> at the AI-CRED Institute, KAIST, working with <a href="https://sites.google.com/view/sungsooahn0215/home" target="_blank" style="color:rgb(34, 73, 230); text-decoration:none;"><strong>Prof. Sungsoo Ahn</strong></a>. I completed my PhD in Computer Science and Engineering at Seoul National University, advised by 
     <a href="https://bhi-kimlab.github.io/" target="_blank" style="color:rgb(34, 73, 230); text-decoration:none;"><strong>Prof. Sun Kim</strong></a> 
-    in the <a href="https://bhi-kimlab.github.io/" target="_blank" style="color:rgb(34, 73, 230); text-decoration:none;">Bio & Health Informatics (BHI) Lab</a>. My research lies at the intersection of graph machine learning, clinical informatics, and AI-driven drug discovery. I build learning models that are:
+    in the <a href="https://bhi-kimlab.github.io/" target="_blank" style="color:rgb(34, 73, 230); text-decoration:none;">Bio & Health Informatics (BHI) Lab</a>. My research lies at the intersection of graph-based learning, clinical informatics, and AI-driven drug discovery. I build learning models that are:
   🔹 <strong>Robust</strong> to distribution shifts,
   🔹 <strong>Interpretable</strong> for clinical insight,
   🔹 <strong>Generalizable</strong> across biomedical environments.
@@ -23,12 +23,12 @@ redirect_from:
 
 <h2 style="color: #2C3E50;">🔬 Recent Research Focus</h2>
 <ul style="margin-left: -1em;">
+  <li>🧬 <strong>Multi-modality integration on LLM</strong>  
+    bridging structural and semantic gaps in complex biomedical data.</li>
   <li>🧠 <strong>Subgraph-informed hierarchical models</strong>  
-    for clinical document classification and patient trajectory modeling</li>
+    using clinical literature both for cell-level and patient-level simulations.</li>
   <li>🧪 <strong>Invariant representation learning</strong>  
     to enhance molecular property prediction across diverse chemical domains</li>
-  <li>🧬 <strong>Multi-modal integration</strong>  
-    bridging structural and semantic gaps in complex biomedical data</li>
 </ul>
 
 <div style="border-left: 4px solid #27AE60; background:rgb(236, 233, 233); padding: 10px 20px; margin: 20px 20px; border-radius: 8px; font-family: 'Segoe UI', sans-serif;">
@@ -44,6 +44,8 @@ redirect_from:
 
 <h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">🔥 News</h2>
 <ul style="margin-left: -1em;">
+  <li> 🎉 <strong style="color: #D56D53">[2025.08]</strong> Excited to start AI-CRED postdoctoral research fellowship at KAIST, advised by Professor Sungsoo Ahn. </li>
+
   <li> 🎉 <strong style="color: #D56D53">[2025.05]</strong> A paper was accepted by @ICML 2025.</li>
   
   <li> 🎉 <strong style="color: #D56D53">[2025.04]</strong> Two papers was accepted by MLGenX Workshop @ICML 2025.</li>
