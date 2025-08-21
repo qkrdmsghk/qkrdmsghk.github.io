@@ -44,6 +44,8 @@ redirect_from:
 
 <h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">🔥 News</h2>
 <ul style="margin-left: -1em;">
+  <li> 🎉 <strong style="color: #D56D53">[2025.08]</strong> A paper was accepted by @EMNLP Findings 2025.</li>
+
   <li> 🚀 <strong style="color: #D56D53">[2025.08]</strong> Excited to start AI-CRED postdoctoral research fellowship at KAIST, advised by Professor Sungsoo Ahn. </li>
 
   <li> 🎉 <strong style="color: #D56D53">[2025.05]</strong> A paper was accepted by @ICML 2025.</li>
@@ -115,6 +117,12 @@ Jihye Shin*, <strong style="color: #dc322f">Yinhua Piao*</strong>, Dongmin Bang,
 <h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">📝 Publications </h2>
 
 <ul style="margin-left: -1em;">
+    <li>
+    <code class="language-plaintext highlighter-rouge">EMNLP 2025</code>
+    <a href="https://arxiv.org/abs/2503.04780">MV-CLAM: Multi-View Molecular Interpretation with Cross-Modal Projection via Language Model</a>
+    <br> Sumin Ha*, Jun Hyeong Kim*, <strong style="color: #dc322f">Yinhua Piao</strong>, Changyun Cho, Sun Kim
+  </li>
+
   <li>
     <code class="language-plaintext highlighter-rouge">ICML 2025</code>
 <!--     <span style="color:red">(ICLR MLGenX Workshop 2025)</span> -->
