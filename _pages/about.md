@@ -52,8 +52,6 @@ redirect_from:
 
   <li> 🎉 <strong style="color: #D56D53">[2025.05]</strong> A paper was accepted by @ICML 2025.</li>
   
-</li>
-
 </ul>
 
 <details>
