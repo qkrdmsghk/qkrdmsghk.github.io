@@ -52,13 +52,6 @@ redirect_from:
 
   <li> 🎉 <strong style="color: #D56D53">[2025.05]</strong> A paper was accepted by @ICML 2025.</li>
   
-  <li> 🎉 <strong style="color: #D56D53">[2025.04]</strong> Two papers was accepted by MLGenX Workshop @ICML 2025.</li>
-
-  <li> 🎉 <strong style="color: #D56D53">[2025.03]</strong> A paper was accepted by @IEEE TCBB 2025.</li>
-
-  <li> 🏆 <strong style="color: #D56D53">[2025.02]</strong> I won the Outstanding Doctoral Dissertation Award, CSE, SNU.</li>
-  
-  <li> 🎓 <strong style="color: #D56D53">[2024.12]</strong> I successfully defended my PhD! -- "Subgraph-informed Hierarchical Learning in Clinical and Biomedical Domains".  
 </li>
 
 </ul>
@@ -67,6 +60,10 @@ redirect_from:
   <summary style="margin-left: 0.8em; color:rgb(114, 173, 146);">Click Here and Show More</summary>
 
   <ul style="margin-left: -1em;">
+    <li> 📄 <strong style="color: #D56D53">[2025.04]</strong> Two papers was accepted by MLGenX Workshop @ICML 2025.</li>
+    <li> 📄 <strong style="color: #D56D53">[2025.03]</strong> A paper was accepted by @IEEE TCBB 2025.</li>
+    <li> 🥇 <strong style="color: #D56D53">[2025.02]</strong> I won the Outstanding Doctoral Dissertation Award, CSE, SNU.</li>
+    <li> 🎓 <strong style="color: #D56D53">[2024.12]</strong> I successfully defended my PhD! -- "Subgraph-informed Hierarchical Learning in Clinical and Biomedical Domains".  
     <li> 🥇 <strong>[2024.09]</strong> I won the Youlchon AI Star Fellowship 2024.</li>
     <li> 📄 <strong>[2024.04]</strong> One paper was accepted by Computational and Structural Biotechnology Journal 2024.</li>
     <li> 📄 <strong>[2024.02]</strong> One paper was accepted by @ CVPR 2024.</li>
