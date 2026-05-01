@@ -44,6 +44,8 @@ redirect_from:
 
 <h2 style="font-size: 28px; color: #2C3E50; margin-bottom: 5px;">🔥 News</h2>
 <ul style="margin-left: -1em;">
+  <li> 🎉 <strong style="color: #D56D53">[2026.05]</strong> AdaPert was accepted by @ICML 2026.</li>
+
   <li> 🎉 <strong style="color: #D56D53">[2025.08]</strong> A paper was accepted by @EMNLP Findings 2025.</li>
 
   <li> 🚀 <strong style="color: #D56D53">[2025.08]</strong> Excited to start AI-CRED postdoctoral research fellowship at KAIST, advised by Professor Sungsoo Ahn. </li>
