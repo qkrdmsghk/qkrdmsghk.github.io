@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yinhua Piao</title>
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#20263a;           /* soft near-black */
+  --indigo:#3a5bc0;        /* refined, friendly blue (primary) */
+  --indigo-deep:#2b4596;   /* hover / deep */
+  --indigo-soft:#eef1fb;   /* soft blue tint */
+  --yellow:#e2a33c;        /* warm amber — used very sparingly */
+  --yellow-deep:#bd7f1c;
+  --yellow-soft:#fbf4e6;   /* warm cream tint */
+  --teal:#0e9b8b;          /* cool accent — research methods */
+  --rose:#cf5a8f;          /* warm accent — frontier / LLM */
+  --rose-soft:#fbeef5;     /* rose tint — current research card */
+  --muted:#697185;
+  --line:#e9ecf2;
+  --bg:#ffffff;
+  --bg-tint:#f7f8fc;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Inter",-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--sans);color:var(--ink);background:var(--bg);
+  font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;
+}
+a{color:var(--indigo);text-decoration:none}
+a:hover{color:var(--indigo-deep);text-decoration:underline}
+img{max-width:100%}
+
+/* ---------- shell: two columns ---------- */
+.shell{
+  max-width:1140px;margin:0 auto;padding:34px 28px 0;
+  display:grid;grid-template-columns:2fr 8fr;gap:50px;align-items:start;
+}
+
+/* ---------- top horizontal nav ---------- */
+.topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.86);backdrop-filter:saturate(160%) blur(8px);-webkit-backdrop-filter:saturate(160%) blur(8px);border-bottom:1px solid var(--line)}
+.topnav{max-width:1140px;margin:0 auto;padding:13px 28px;display:flex;flex-wrap:wrap;gap:8px 26px;justify-content:flex-end}
+.topnav a{position:relative;color:var(--muted);font-size:13.5px;font-weight:500;letter-spacing:.02em}
+.topnav a:hover{color:var(--indigo);text-decoration:none}
+.topnav a.active{color:var(--indigo);font-weight:600}
+.topnav a.active::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:2px;border-radius:2px;background:var(--indigo)}
+
+/* ---------- left rail (sticky identity) ---------- */
+.rail{position:sticky;top:74px}
+.rail__avatar{position:relative;display:inline-block;line-height:0;margin-bottom:2px}
+.rail__avatar::before{
+  content:"";position:absolute;inset:-20px;z-index:0;border-radius:50%;
+  background:radial-gradient(circle at 42% 36%, rgba(58,91,192,.26), rgba(226,163,60,.16) 55%, rgba(58,91,192,0) 75%);
+  filter:blur(18px);
+}
+.rail__avatar img{
+  position:relative;z-index:1;
+  width:150px;height:150px;object-fit:cover;border-radius:50%;
+  border:4px solid #fff;box-shadow:0 8px 22px rgba(32,38,58,.14);
+}
+.rail__name{font-family:var(--serif);font-size:30px;line-height:1.1;margin:18px 0 4px;font-weight:600;letter-spacing:-.3px}
+.rail__role{color:var(--indigo);font-weight:600;font-size:14px;margin:0 0 10px;line-height:1.4}
+.rail__loc{color:var(--muted);font-size:13px;margin:0 0 14px;line-height:1.45}
+.rail__loc svg{vertical-align:-2px;margin-right:4px}
+
+/* keyword tags — the at-a-glance "what I do" */
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 16px}
+.tags span{
+  font-size:11.5px;font-weight:600;border-radius:999px;padding:4px 11px;letter-spacing:.01em;
+  color:var(--indigo-deep);background:var(--indigo-soft);
+}
+
+/* social icon row */
+.social{display:flex;gap:9px;margin:0 0 4px}
+.social a{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:40px;height:40px;border:1px solid var(--line);border-radius:11px;
+  color:var(--ink);background:#fff;transition:.16s;
+}
+.social a:hover{border-color:var(--indigo);color:var(--indigo);transform:translateY(-1px);box-shadow:0 6px 14px rgba(27,58,107,.10)}
+.social a.cv{border-color:var(--indigo);color:var(--indigo)}
+.social a.cv:hover{background:var(--indigo);color:#fff}
+.social svg{width:18px;height:18px}
+
+/* ---------- main content ---------- */
+.content{min-width:0}
+section{padding:26px 0;border-top:1px solid var(--line);scroll-margin-top:66px}
+section:first-child{padding-top:4px;border-top:none}
+
+.kicker{
+  display:inline-block;font-size:11px;font-weight:700;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--indigo);margin-bottom:6px;
+}
+h2.sec{font-family:var(--serif);font-size:23px;font-weight:600;margin:0 0 14px;letter-spacing:-.2px;position:relative;padding-left:14px}
+h2.sec::before{content:"";position:absolute;left:0;top:5px;bottom:5px;width:4px;border-radius:4px;background:var(--indigo)}
+
+/* about */
+#about{padding-bottom:14px}
+.intro h2.sec{margin-bottom:9px}
+.intro p{margin:0 0 7px;font-size:15px;line-height:1.55}
+.intro p:last-child{margin-bottom:0}
+.intro p strong{color:var(--indigo-deep);font-weight:600}
+.name-hl{color:var(--indigo);font-weight:600}
+.intro p strong.hl-amber{color:var(--yellow-deep)}
+.intro p strong.hl-teal{color:var(--teal)}
+.intro p strong.hl-rose{color:var(--rose)}
+
+/* pull research overview up */
+#research{padding-top:18px}
+
+/* research overview — thematic threads with venue proof */
+.ro__thesis{font-size:15px;color:var(--ink);margin:0 0 13px;line-height:1.55}
+.ro__thesis strong{color:var(--indigo-deep);font-weight:600}
+.ro-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-top:0}
+.ro-card{
+  position:relative;padding:13px 14px;background:var(--bg-tint);cursor:pointer;
+  border:1px solid var(--line);border-radius:14px;transition:.16s;
+  display:flex;flex-direction:column;
+}
+.ro-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(32,38,58,.08);border-color:#cdd6ee}
+.ro-card:focus-visible{outline:2px solid var(--indigo);outline-offset:2px}
+.ro-card--now{background:var(--rose-soft);border-color:#f0cfe0}
+.ro-card[data-modal="m-mm"] .ro-card__dia{color:var(--teal)}
+.ro-card__dia{
+  display:block;width:100%;height:54px;color:var(--indigo);
+  background:#fff;border:1px solid var(--line);border-radius:10px;padding:4px 8px;margin-bottom:10px;
+}
+.ro-card--now .ro-card__dia{color:var(--rose)}
+.ro-card__title{font-family:var(--serif);font-size:15.5px;font-weight:600;color:var(--ink);line-height:1.3;margin:0 0 6px}
+.ro-card__desc{font-size:12.5px;color:var(--muted);line-height:1.45;margin:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden}
+.ro-card__more{margin-top:10px;font-size:12px;font-weight:600;color:var(--indigo);display:inline-flex;align-items:center;gap:4px}
+.ro-card__more i{font-style:normal;transition:.16s}
+.ro-card:hover .ro-card__more i{transform:translateX(3px)}
+.ro-card__badge{
+  position:absolute;top:14px;right:14px;
+  font-size:9.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:#fff;background:var(--rose);border-radius:999px;padding:2px 9px;
+}
+
+/* ---------- detail modals ---------- */
+.modal{
+  border:none;border-radius:18px;padding:0;max-width:580px;width:calc(100% - 40px);
+  color:var(--ink);box-shadow:0 30px 80px rgba(20,24,40,.32);
+}
+.modal::backdrop{background:rgba(22,26,44,.46)}
+.modal__head{position:relative;padding:22px 26px 16px;border-bottom:1px solid var(--line)}
+.modal__kicker{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--indigo)}
+.modal__title{font-family:var(--serif);font-size:21px;font-weight:600;margin:6px 0 5px;line-height:1.2}
+.modal__intro{font-size:13.5px;color:var(--muted);margin:0;line-height:1.5}
+.modal__close{
+  position:absolute;top:18px;right:18px;width:30px;height:30px;border:none;cursor:pointer;
+  background:var(--bg-tint);border-radius:8px;color:var(--muted);font-size:18px;line-height:1;
+  display:inline-flex;align-items:center;justify-content:center;
+}
+.modal__close:hover{background:#edf0f7;color:var(--ink)}
+.modal__body{padding:6px 26px 24px;max-height:62vh;overflow:auto}
+.mp{padding:13px 15px;border:1px solid var(--line);border-radius:12px;background:var(--bg-tint);margin-bottom:9px;transition:border-color .15s,box-shadow .15s}
+.mp:last-child{margin-bottom:0}
+.mp:hover{border-color:#cdd6ee;box-shadow:0 4px 12px rgba(32,38,58,.05)}
+.mp__top{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.mp__title{font-weight:600;font-size:14px;color:var(--ink);line-height:1.4}
+.mp__title:hover{color:var(--indigo)}
+.mp__venue{flex:0 0 auto;font-size:10px;font-weight:700;letter-spacing:.05em;color:var(--indigo);background:#fff;border:1px solid #cdd6ee;border-radius:6px;padding:2px 8px;white-space:nowrap}
+.mp__row{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:9px}
+.mp__lab{flex:0 0 auto;font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);width:42px}
+.chip{font-size:11px;font-weight:600;border-radius:999px;padding:3px 10px;line-height:1.3}
+.chip--m{color:var(--ink);background:#fff;border:1px solid var(--line)}
+.chip--d{color:var(--indigo-deep);background:var(--indigo-soft)}
+.goal{
+  margin-top:12px;padding:11px 16px;border-left:4px solid var(--yellow);
+  background:var(--yellow-soft);border-radius:0 10px 10px 0;font-size:14px;color:#7a5a07;
+}
+.goal strong{color:var(--yellow-deep)}
+
+/* news */
+.news{list-style:none;margin:0;padding:0}
+.news li{display:flex;gap:12px;padding:8px 0;border-bottom:1px dashed var(--line);font-size:14.5px}
+.news li:last-child{border-bottom:none}
+.date{
+  flex:0 0 auto;font-size:12px;font-weight:600;
+  color:var(--indigo);background:var(--indigo-soft);border-radius:6px;
+  padding:2px 9px;height:fit-content;white-space:nowrap;margin-top:1px;letter-spacing:.02em;
+}
+details.more{margin-top:10px}
+details.more summary{
+  cursor:pointer;color:var(--indigo);font-weight:600;font-size:13.5px;list-style:none;
+  display:inline-flex;align-items:center;gap:6px;
+}
+details.more summary::-webkit-details-marker{display:none}
+details.more summary::before{content:"▸";transition:.2s}
+details.more[open] summary::before{transform:rotate(90deg)}
+details.more .news{margin-top:8px}
+
+/* selected publications */
+.pub-card{display:flex;gap:18px;align-items:center;padding:15px 0;border-bottom:1px solid var(--line)}
+.pub-card:last-child{border-bottom:none}
+.pub-card__img{flex:0 0 172px}
+.pub-card__img img{width:100%;border-radius:9px;border:1px solid var(--line);box-shadow:0 6px 16px rgba(21,24,43,.12)}
+.pub-card__body{flex:1 1 auto;min-width:0}
+.pub-card__venue{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.05em;color:var(--indigo);background:#fff;border:1px solid #cdd6ee;border-radius:6px;padding:2px 8px;margin-bottom:6px}
+.pub-card__title{display:block;font-size:15.5px;font-weight:600;color:var(--ink);line-height:1.4;margin-bottom:5px}
+.pub-card__title:hover{color:var(--indigo)}
+.pub-card__authors{font-size:13.5px;color:var(--muted)}
+.me{color:var(--indigo-deep);font-weight:700}
+.tag-oral{color:#b23b2e;font-weight:600;font-size:12.5px}
+.proj{font-weight:600;font-size:13px}
+
+/* full list */
+.pubs{list-style:none;margin:0;padding:0}
+.pubs li{padding:11px 0;border-bottom:1px solid var(--line);font-size:14.5px;display:flex;gap:12px}
+.pubs li:last-child{border-bottom:none}
+.venue{
+  flex:0 0 auto;font-size:11px;font-weight:700;letter-spacing:.05em;
+  color:var(--indigo);background:#fff;border:1px solid #cdd6ee;border-radius:6px;padding:2px 8px;
+  height:fit-content;white-space:nowrap;margin-top:2px;min-width:72px;text-align:center;
+}
+.pubs li .t{display:block;font-weight:600;color:var(--ink);line-height:1.4}
+.pubs li .t:hover{color:var(--indigo)}
+.pubs li .a{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+
+/* awards / education — two-column dense grid */
+.tl{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:4px 28px}
+.tl li{display:flex;gap:12px;padding:7px 0;border-bottom:1px dashed var(--line);font-size:14px}
+.edu .tl{grid-template-columns:1fr}
+
+footer{max-width:1140px;margin:0 auto;padding:26px 28px;color:var(--muted);font-size:12.5px;text-align:center;border-top:1px solid var(--line);margin-top:14px}
+footer a{color:var(--muted)}
+
+/* ---------- responsive ---------- */
+@media(max-width:860px){
+  .shell{grid-template-columns:1fr;gap:26px}
+  .rail{position:static;min-height:auto;justify-content:flex-start;text-align:center;align-items:center}
+  .rail__avatar img{width:128px;height:128px}
+  .tags,.social{justify-content:center}
+  .topnav{gap:6px 18px;font-size:13px}
+  .tl{grid-template-columns:1fr}
+  .ro-cards{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <nav class="topnav">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#news">News</a>
+    <a href="#publications">Publications</a>
+    <a href="#awards">Honors &amp; Awards</a>
+    <a href="#education">Education</a>
+  </nav>
+</header>
+
+<div class="shell">
+
+  <!-- ============ LEFT RAIL ============ -->
+  <aside class="rail">
+    <div class="rail__avatar"><img src="images/yinhua_piao.jpeg" alt="Yinhua Piao"></div>
+    <h1 class="rail__name">Yinhua Piao</h1>
+    <p class="rail__role">Postdoctoral Fellow<br>AI-CRED Institute, KAIST</p>
+    <p class="rail__loc">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#5b6470" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Seoul, South Korea
+    </p>
+    <div class="tags">
+      <span>Graph &amp; Multi-modal AI</span><span>Drug Discovery</span><span>LLM Agents</span><span>Cell Modeling</span><span>OOD Generalization</span>
+    </div>
+    <div class="social">
+      <a href="https://scholar.google.com/citations?user=mQEG6VcAAAAJ" title="Google Scholar"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg></a>
+      <a href="https://github.com/qkrdmsghk" title="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.7c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.7 18 5 18 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg></a>
+      <a href="mailto:yinhuapark@naver.com" title="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
+      <a class="cv" href="assets/Academic_CV.pdf" title="Curriculum Vitae (CV)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6M9 17h4"/></svg></a>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN CONTENT ============ -->
+  <main class="content">
+
+    <!-- ABOUT -->
+    <section id="about" class="intro">
+      <span class="kicker">About</span>
+      <h2 class="sec">Hi, I'm Yinhua</h2>
+      <p>I'm a <span class="name-hl">postdoctoral fellow</span> at the <a href="https://sites.google.com/view/aicred/ai-cred">Innocore AI-CRED Institute</a>, KAIST, advised by
+        <a href="https://sungsoo-ahn.github.io/"><strong>Prof. Sungsoo Ahn</strong></a> and
+        <a href="https://wooyoun.kaist.ac.kr/"><strong>Prof. Woo Youn Kim</strong></a>. I did my <span class="name-hl">PhD in Computer Science</span> at Seoul National University with
+        <a href="https://bhi-kimlab.github.io/"><strong>Prof. Sun Kim</strong></a>, where my dissertation on
+        <strong>subgraph-informed hierarchical learning</strong> received the <strong class="hl-amber">Outstanding Doctoral Dissertation Award</strong>.</p>
+      <p>I develop <strong class="hl-teal">graph-based and multi-modal AI</strong> for drug discovery and biomedical reasoning,
+        integrating molecular, cellular, sequential, textual, and knowledge-graph signals across the preclinical
+        pipeline — with a growing focus on <strong class="hl-rose">LLM-based scientific reasoning</strong> over biological knowledge.</p>
+    </section>
+
+    <!-- RESEARCH OVERVIEW -->
+    <section id="research">
+      <span class="kicker">Research</span>
+      <h2 class="sec">Research Overview</h2>
+
+      <div class="ro-cards">
+        <div class="ro-card" data-modal="m-mm" role="button" tabindex="0" aria-haspopup="dialog">
+          <svg class="ro-card__dia" viewBox="0 0 250 56" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <!-- gene / DNA -->
+            <path d="M22 14 C34 21 34 35 22 42"/><path d="M34 14 C22 21 22 35 34 42"/><path d="M25 19 L31 19"/><path d="M24 28 L32 28"/><path d="M25 37 L31 37"/>
+            <!-- molecule sequence -->
+            <circle cx="70" cy="28" r="3.2"/><circle cx="80" cy="28" r="3.2"/><circle cx="90" cy="28" r="3.2"/><path d="M73.2 28 L76.8 28"/><path d="M83.2 28 L86.8 28"/>
+            <!-- molecule structure (ring) -->
+            <path d="M130 17 L139.5 22.5 L139.5 33.5 L130 39 L120.5 33.5 L120.5 22.5 Z"/><path d="M124.5 25 L124.5 31"/>
+            <!-- clinical notes -->
+            <rect x="171" y="16" width="17" height="24" rx="2"/><path d="M175 23 L184 23"/><path d="M175 28 L184 28"/><path d="M175 33 L181 33"/><circle cx="187" cy="14" r="3.4"/><path d="M187 12.1 L187 15.9 M185.1 14 L188.9 14" stroke-width="1.2"/>
+            <!-- knowledge graph -->
+            <circle cx="219" cy="19" r="2.6"/><circle cx="237" cy="22" r="2.6"/><circle cx="222" cy="37" r="2.6"/><circle cx="236" cy="35" r="2.6"/><path d="M219 19 L237 22"/><path d="M219 19 L222 37"/><path d="M237 22 L236 35"/><path d="M222 37 L236 35"/><path d="M219 19 L236 35"/>
+            <!-- "+" connectors: multi-modal -->
+            <g stroke-opacity="0.32" stroke-width="1.4"><path d="M53 25 L53 31 M50 28 L56 28"/><path d="M106 25 L106 31 M103 28 L109 28"/><path d="M155 25 L155 31 M152 28 L158 28"/><path d="M203 25 L203 31 M200 28 L206 28"/></g>
+          </svg>
+          <h3 class="ro-card__title">Multi-modal integration for drug discovery</h3>
+          <p class="ro-card__desc">Coupling molecules with text, gene expression, and knowledge graphs.</p>
+          <span class="ro-card__more">View details <i>→</i></span>
+        </div>
+
+        <div class="ro-card" data-modal="m-robust" role="button" tabindex="0" aria-haspopup="dialog">
+          <svg class="ro-card__dia" viewBox="0 0 250 56" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <!-- in-distribution cluster -->
+            <text x="58" y="9" font-family="Inter,sans-serif" font-size="8" font-weight="700" fill="currentColor" stroke="none" text-anchor="middle" opacity="0.65">IN-DIST.</text>
+            <ellipse cx="58" cy="33" rx="48" ry="19"/>
+            <circle cx="44" cy="29" r="2.2" fill="currentColor"/><circle cx="56" cy="36" r="2.2" fill="currentColor"/><circle cx="68" cy="30" r="2.2" fill="currentColor"/><circle cx="50" cy="42" r="2.2" fill="currentColor"/><circle cx="64" cy="43" r="2.2" fill="currentColor"/><circle cx="74" cy="36" r="2.2" fill="currentColor"/>
+            <!-- distribution shift -->
+            <text x="129" y="13" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="currentColor" stroke="none" text-anchor="middle" opacity="0.7">shift</text>
+            <path d="M110 22 C124 14 134 14 148 22"/><path d="M142 18 L148 22 L141 25"/>
+            <!-- out-of-distribution cluster -->
+            <text x="194" y="9" font-family="Inter,sans-serif" font-size="12" font-weight="800" fill="currentColor" stroke="none" text-anchor="middle">OOD</text>
+            <ellipse cx="194" cy="34" rx="50" ry="20" stroke-dasharray="5 3" stroke-width="2.1"/>
+            <path d="M178 33 L181 39 L175 39 Z"/><path d="M192 41 L195 47 L189 47 Z"/><path d="M206 31 L209 37 L203 37 Z"/><path d="M186 25 L189 31 L183 31 Z"/><path d="M210 44 L213 50 L207 50 Z"/>
+          </svg>
+          <h3 class="ro-card__title">Robust &amp; generalizable graph learning</h3>
+          <p class="ro-card__desc">Reliable under distribution shift and across domains.</p>
+          <span class="ro-card__more">View details <i>→</i></span>
+        </div>
+
+        <div class="ro-card ro-card--now" data-modal="m-llm" role="button" tabindex="0" aria-haspopup="dialog">
+          <span class="ro-card__badge">Current</span>
+          <svg class="ro-card__dia" viewBox="0 0 250 56" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <!-- LLM agent -->
+            <rect x="8" y="16" width="26" height="24" rx="6"/>
+            <path d="M21 22 l1.4 3 3 .7 -3 .7 -1.4 3 -1.4 -3 -3 -.7 3 -.7 z" fill="currentColor" stroke="none"/>
+            <!-- progressive reasoning -->
+            <path d="M38 28 L74 28" stroke-dasharray="2 3"/>
+            <circle cx="48" cy="28" r="1.3" fill="currentColor"/><circle cx="56" cy="28" r="1.3" fill="currentColor"/><circle cx="64" cy="28" r="1.3" fill="currentColor"/>
+            <path d="M70 24 L74 28 L70 32"/>
+            <!-- cell (hero) -->
+            <circle cx="130" cy="28" r="25" stroke-width="1.9"/>
+            <circle cx="130" cy="28" r="21" stroke-opacity="0.35"/>
+            <circle cx="130" cy="28" r="8.5"/><circle cx="130" cy="28" r="2.6" fill="currentColor"/>
+            <ellipse cx="112" cy="16" rx="3.2" ry="2.1"/><ellipse cx="147" cy="39" rx="3.2" ry="2.1"/>
+            <circle cx="146" cy="16" r="1.7"/><circle cx="114" cy="41" r="1.7"/>
+            <!-- predicted response -->
+            <path d="M160 28 L198 28"/><path d="M192 24 L198 28 L192 32"/>
+            <path d="M206 42 L206 31"/><path d="M214 42 L214 19"/><path d="M222 42 L222 35"/><path d="M230 42 L230 25"/>
+          </svg>
+          <h3 class="ro-card__title">LLM agents for biological reasoning</h3>
+          <p class="ro-card__desc">Reasoning over biology to model how cells respond.</p>
+          <span class="ro-card__more">View details <i>→</i></span>
+        </div>
+      </div>
+
+      <p class="goal">I integrate the many signals of biology — <strong>molecules, cells, text, and knowledge graphs</strong> — into AI that <strong>generalizes beyond its training data</strong>, toward trustworthy, biology-grounded systems for drug discovery and personalized medicine.</p>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news">
+      <span class="kicker">Updates</span>
+      <h2 class="sec">News</h2>
+      <ul class="news">
+        <li><span class="date">2026.05</span><span>AdaPert was accepted by <strong>ICML 2026</strong>.</span></li>
+        <li><span class="date">2025.08</span><span>A paper was accepted by <strong>EMNLP Findings 2025</strong>.</span></li>
+        <li><span class="date">2025.08</span><span>Started the AI-CRED postdoctoral fellowship at KAIST, advised by Prof. Sungsoo Ahn.</span></li>
+        <li><span class="date">2025.05</span><span>A paper was accepted by <strong>ICML 2025</strong>.</span></li>
+      </ul>
+      <details class="more">
+        <summary>Show more</summary>
+        <ul class="news">
+          <li><span class="date">2025.04</span><span>Two papers accepted by the MLGenX Workshop @ ICML 2025.</span></li>
+          <li><span class="date">2025.03</span><span>A paper accepted by <strong>IEEE TCBB 2025</strong>.</span></li>
+          <li><span class="date">2025.02</span><span>Won the Outstanding Doctoral Dissertation Award, CSE, SNU.</span></li>
+          <li><span class="date">2024.12</span><span>Successfully defended my PhD — "Subgraph-informed Hierarchical Learning in Clinical and Biomedical Domains."</span></li>
+          <li><span class="date">2024.09</span><span>Won the Youlchon AI Star Fellowship 2024.</span></li>
+          <li><span class="date">2024.04</span><span>One paper accepted by the Computational and Structural Biotechnology Journal 2024.</span></li>
+          <li><span class="date">2024.02</span><span>One paper accepted by <strong>CVPR 2024</strong>.</span></li>
+          <li><span class="date">2024.02</span><span>One paper accepted by the ICLR Tiny Paper track 2024.</span></li>
+          <li><span class="date">2024.02</span><span>Won the 30th Samsung HumanTech Paper Award.</span></li>
+        </ul>
+      </details>
+    </section>
+
+    <!-- SELECTED PUBLICATIONS -->
+    <section id="publications">
+      <span class="kicker">Publications</span>
+      <h2 class="sec">Selected Publications</h2>
+
+      <div class="pub-card">
+        <div class="pub-card__img"><img src="images/cvpr2024.png" alt="CVPR 2024"></div>
+        <div class="pub-card__body">
+          <span class="pub-card__venue">CVPR 2024</span>
+          <a class="pub-card__title" href="https://arxiv.org/abs/2403.01773">Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments</a>
+          <div class="pub-card__authors"><span class="me">Yinhua Piao</span>, Sangseon Lee, Yijingxiu Lu, Sun Kim · <a class="proj" href="https://github.com/qkrdmsghk/GOODHSE">Project</a></div>
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-card__img"><img src="images/acl2023.png" alt="ACL 2023"></div>
+        <div class="pub-card__body">
+          <span class="pub-card__venue">ACL 2023</span>
+          <a class="pub-card__title" href="https://arxiv.org/abs/2305.09756">Clinical Note Owns its Hierarchy: Multi-Level Hypergraph Neural Networks for Patient-Level Representation Learning</a>
+          <div class="pub-card__authors">Nayeon Kim*, <span class="me">Yinhua Piao*</span>, Sun Kim <span class="tag-oral">(Long, Oral)</span> · <a class="proj" href="https://github.com/ny1031/TM-HGNN">Project</a></div>
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-card__img"><img src="images/ijms2022.png" alt="IJMS 2022"></div>
+        <div class="pub-card__body">
+          <span class="pub-card__venue">IJMS 2022</span>
+          <a class="pub-card__title" href="https://www.mdpi.com/1422-0067/23/22/13919">DRPreter: Interpretable Anticancer Drug Response Prediction Using Knowledge-Guided Graph Neural Networks and Transformer</a>
+          <div class="pub-card__authors">Jihye Shin*, <span class="me">Yinhua Piao*</span>, Dongmin Bang, Sun Kim, Kyuri Jo · <a class="proj" href="https://github.com/babaling/DRPreter">Project</a></div>
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <div class="pub-card__img"><img src="images/aaai2022.png" alt="AAAI 2022"></div>
+        <div class="pub-card__body">
+          <span class="pub-card__venue">AAAI 2022</span>
+          <a class="pub-card__title" href="https://ojs.aaai.org/index.php/AAAI/article/view/21366">Sparse Structure Learning via Graph Neural Networks for Inductive Document Classification</a>
+          <div class="pub-card__authors"><span class="me">Yinhua Piao</span>, Sangseon Lee, Dohoon Lee, Sun Kim · <a class="proj" href="https://github.com/qkrdmsghk/TextSSL">Project</a></div>
+        </div>
+      </div>
+
+      <details class="more">
+        <summary>All publications</summary>
+        <ul class="pubs" style="margin-top:10px">
+          <li><span class="venue">ICML 2026</span><div><a class="t" href="https://arxiv.org/abs/2602.18885">Learning Adaptive Perturbation-Conditioned Contexts for Robust Transcriptional Response Prediction</a><span class="a"><span class="me">Yinhua Piao</span>, Hyomin Kim, Seonghwan Kim, Yunhak Oh, Junhyeok Jeon, Sang-Yeon Hwang, Jaechang Lim, Woo Youn Kim, Chanyoung Park, Sungsoo Ahn</span></div></li>
+          <li><span class="venue">arXiv 2026</span><div><a class="t" href="https://arxiv.org/abs/2602.07408">Progressive Multi-Agent Reasoning for Biological Perturbation Prediction</a><span class="a">Hyomin Kim, Sang-Yeon Hwang, Jaechang Lim, <span class="me">Yinhua Piao</span>, Yunhak Oh, Woo Youn Kim, Chanyoung Park, Sungsoo Ahn, Junhyeok Jeon</span></div></li>
+          <li><span class="venue">EMNLP 2025</span><div><a class="t" href="https://arxiv.org/abs/2503.04780">MV-CLAM: Multi-View Molecular Interpretation with Cross-Modal Projection via Language Model</a><span class="a">Sumin Ha*, Jun Hyeong Kim*, <span class="me">Yinhua Piao</span>, Changyun Cho, Sun Kim</span></div></li>
+          <li><span class="venue">JCIM 2025</span><div><a class="t" href="https://pubs.acs.org/doi/10.1021/acs.jcim.5c01404">Improving Reaction Yield Prediction with Chemical Atom-Level Reaction Learning</a><span class="a">Yijingxiu Lu, <span class="me">Yinhua Piao</span>, Ming Shen, Sun Kim</span></div></li>
+          <li><span class="venue">ICML 2025</span><div><a class="t" href="https://openreview.net/forum?id=G2zzdbgKxl">Predicting Drug-likeness via Biomedical Knowledge Alignment and EM-like One-Class Boundary Optimization</a><span class="a">Dongmin Bang, Inyoung Sung, <span class="me">Yinhua Piao</span>, Sangseon Lee, Sun Kim</span></div></li>
+          <li><span class="venue">ICLRw 2025</span><div><a class="t" href="https://openreview.net/forum?id=lwK6AaIAJB">Aligning Molecules and Fragments in a Shared Embedding Space for RL-Based Molecule Generation</a><span class="a">Youngkuk Kim, <span class="me">Yinhua Piao</span>, Sangseon Lee, Sun Kim</span></div></li>
+          <li><span class="venue">TCBB 2025</span><div><a class="t" href="https://ieeexplore.ieee.org/abstract/document/10925899">Context-Aware Hierarchical Fusion for Drug Relational Learning</a><span class="a">Yijingxiu Lu, <span class="me">Yinhua Piao</span>, Sangseon Lee, Sun Kim</span></div></li>
+          <li><span class="venue">CSBJ 2024</span><div><a class="t" href="https://doi.org/10.1016/j.csbj.2024.04.038">Multi-layered Knowledge Graph Neural Network Reveals Pathway-level Agreement of Three Breast Cancer Multi-gene Assays</a><span class="a">Sangseon Lee*, Joonhyeong Park*, <span class="me">Yinhua Piao</span>, Dohoon Lee, Danyeong Lee, Sun Kim</span></div></li>
+          <li><span class="venue">CVPR 2024</span><div><a class="t" href="https://arxiv.org/abs/2403.01773">Improving Out-of-Distribution Generalization in Graphs via Hierarchical Semantic Environments</a><span class="a"><span class="me">Yinhua Piao</span>, Sangseon Lee, Yijingxiu Lu, Sun Kim · <a class="proj" href="https://github.com/qkrdmsghk/GOODHSE">Project</a></span></div></li>
+          <li><span class="venue">ICLR 2024</span><div><a class="t" href="https://openreview.net/forum?id=e2Bkf1Bzh4">Enhancing Drug-Drug Interaction Prediction with Context-Aware Architecture <span class="tag-oral">(Tiny Paper)</span></a><span class="a">Yijingxiu Lu, <span class="me">Yinhua Piao</span>, Sun Kim · <a class="proj" href="https://github.com/solanoon/CabidaDDI">Project</a></span></div></li>
+          <li><span class="venue">CSBJ 2023</span><div><a class="t" href="https://doi.org/10.1016/j.csbj.2023.08.016">Exploring Chemical Space for Lead Identification by Propagating on Chemical Similarity Network</a><span class="a">Jungseob Yi, Sangseon Lee, Sangsoo Lim, Changyun Cho, <span class="me">Yinhua Piao</span>, Marie Yeo, Dongkyu Kim, Sun Kim, Sunho Lee · <a class="proj" href="https://github.com/J-Sub/ChemNP">Project</a></span></div></li>
+          <li><span class="venue">ACL 2023</span><div><a class="t" href="https://arxiv.org/abs/2305.09756">Clinical Note Owns its Hierarchy: Multi-Level Hypergraph Neural Networks for Patient-Level Representation Learning <span class="tag-oral">(Long, Oral)</span></a><span class="a">Nayeon Kim*, <span class="me">Yinhua Piao*</span>, Sun Kim · <a class="proj" href="https://github.com/ny1031/TM-HGNN">Project</a></span></div></li>
+          <li><span class="venue">IJMS 2022</span><div><a class="t" href="https://www.mdpi.com/1422-0067/23/22/13919">DRPreter: Interpretable Anticancer Drug Response Prediction Using Knowledge-Guided Graph Neural Networks and Transformer</a><span class="a">Jihye Shin*, <span class="me">Yinhua Piao*</span>, Dongmin Bang, Sun Kim, Kyuri Jo · <a class="proj" href="https://github.com/babaling/DRPreter">Project</a></span></div></li>
+          <li><span class="venue">NeurIPS 2022</span><div><a class="t" href="https://openreview.net/forum?id=z3SHKtoG5XZ">SPGP: Structure Prototype Guided Graph Pooling</a><span class="a">Sangseon Lee, Dohoon Lee, <span class="me">Yinhua Piao</span>, Sun Kim</span></div></li>
+          <li><span class="venue">CSBJ 2022</span><div><a class="t" href="https://www.sciencedirect.com/science/article/pii/S2001037022003300">On Modeling and Utilizing Chemical Compound Information with Deep Learning Technologies: A Task-Oriented Approach</a><span class="a">Sangsoo Lim, Sangseon Lee, <span class="me">Yinhua Piao</span>, MinGyu Choi, Dongmin Bang, Jeonghyeon Gu, Sun Kim</span></div></li>
+          <li><span class="venue">AAAI 2022</span><div><a class="t" href="https://ojs.aaai.org/index.php/AAAI/article/view/21366">Sparse Structure Learning via Graph Neural Networks for Inductive Document Classification</a><span class="a"><span class="me">Yinhua Piao</span>, Sangseon Lee, Dohoon Lee, Sun Kim · <a class="proj" href="https://github.com/qkrdmsghk/TextSSL">Project</a></span></div></li>
+          <li><span class="venue">Math. 2022</span><div><a class="t" href="https://www.mdpi.com/2227-7390/9/7/772">Graph Convolutional Network for Drug Response Prediction Using Gene Expression Data</a><span class="a">Seonghun Kim, Seockhun Bae, <span class="me">Yinhua Piao</span>, Kyuri Jo · <a class="proj" href="https://github.com/BML-cbnu/DrugGCN">Project</a></span></div></li>
+        </ul>
+      </details>
+    </section>
+
+    <!-- AWARDS -->
+    <section id="awards">
+      <span class="kicker">Recognition</span>
+      <h2 class="sec">Honors &amp; Awards</h2>
+      <ul class="tl">
+        <li><span class="date">2025.02</span><span>Outstanding Doctoral Dissertation Award, CSE, SNU.</span></li>
+        <li><span class="date">2024.09</span><span>Youlchon AI Star Fellowship.</span></li>
+        <li><span class="date">2024.02</span><span>30th Samsung HumanTech Paper Award.</span></li>
+        <li><span class="date">2022.09</span><span>27th Samsung HumanTech Paper Award (Bronze). <a href="https://cse.snu.ac.kr/node/54543">[link]</a></span></li>
+        <li><span class="date">2022.04</span><span>AIIS Retreat Best Poster Award. <a href="https://aiis.snu.ac.kr/bbs/board.php?bo_table=sub5_1&wr_id=312">[link]</a></span></li>
+        <li><span class="date">2022.02</span><span>AAAI Student Scholar Scholarship.</span></li>
+        <li><span class="date">2020–22</span><span>SNU Global Scholarships II. <a href="https://oia.snu.ac.kr/snu-global-scholarships-iii">[link]</a></span></li>
+      </ul>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="edu">
+      <span class="kicker">Background</span>
+      <h2 class="sec">Education</h2>
+      <ul class="tl">
+        <li><span class="date">2020–24</span><span><strong>Ph.D. in Computer Science</strong>, Seoul National University.</span></li>
+        <li><span class="date">2018–20</span><span><strong>M.S. in Computer Science</strong>, Seoul National University.</span></li>
+        <li><span class="date">2014–18</span><span><strong>B.S. in Software Engineering</strong>, Jilin University.</span></li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer>© 2026 Yinhua Piao · <a href="https://github.com/qkrdmsghk">github.com/qkrdmsghk</a></footer>
+
+<!-- ============ DETAIL MODALS ============ -->
+<dialog class="modal" id="m-mm">
+  <div class="modal__head">
+    <button class="modal__close" aria-label="Close">×</button>
+    <span class="modal__kicker">Research · Theme 1</span>
+    <h3 class="modal__title">Multi-modal integration for drug discovery</h3>
+    <p class="modal__intro">Most biomedical questions only become answerable when several modalities are read together. I build models that couple molecular structure with text, gene expression, and biological knowledge graphs.</p>
+  </div>
+  <div class="modal__body">
+    <div class="mp">
+      <div class="mp__top"><a class="mp__title" href="https://arxiv.org/abs/2503.04780">MV-CLAM: Multi-View Molecular Interpretation with Cross-Modal Projection</a><span class="mp__venue">EMNLP '25</span></div>
+      <div class="mp__row"><span class="mp__lab">Method</span><span class="chip chip--m">Cross-modal projection</span><span class="chip chip--m">Language model</span></div>
+      <div class="mp__row"><span class="mp__lab">Data</span><span class="chip chip--d">Molecular graph</span><span class="chip chip--d">SMILES</span><span class="chip chip--d">Text descriptions</span></div>
+    </div>
+    <div class="mp">
+      <div class="mp__top"><a class="mp__title" href="https://openreview.net/forum?id=G2zzdbgKxl">Predicting Drug-likeness via Biomedical Knowledge Alignment</a><span class="mp__venue">ICML '25</span></div>
+      <div class="mp__row"><span class="mp__lab">Method</span><span class="chip chip--m">Knowledge alignment</span><span class="chip chip--m">One-class boundary</span></div>
+      <div class="mp__row"><span class="mp__lab">Data</span><span class="chip chip--d">Molecular structure</span><span class="chip chip--d">Biomedical KG</span><span class="chip chip--d">Approved drugs</span></div>
+    </div>
+    <div class="mp">
+      <div class="mp__top"><a class="mp__title" href="https://pubs.acs.org/doi/10.1021/acs.jcim.5c01404">Improving Reaction Yield Prediction with Chemical Atom-Level Reaction Learning</a><span class="mp__venue">JCIM '25</span></div>
+      <div class="mp__row"><span class="mp__lab">Method</span><span class="chip chip--m">Atom-level GNN</span></div>
+      <div class="mp__row"><span class="mp__lab">Data</span><span class="chip chip--d">Reactions (atom-mapped)</span><span class="chip chip--d">Yield records</span></div>
+    </div>
+    <div class="mp">
+      <div class="mp__top"><a class="mp__title" href="https://www.mdpi.com/1422-0067/23/22/13919">DRPreter: Interpretable Anticancer Drug Response Prediction</a><span class="mp__venue">IJMS '22</span></div>
+      <div class="mp__row"><span class="mp__lab">Method</span><span class="chip chip--m">Knowledge-guided GNN</span><span class="chip chip--m">Transformer</span></div>
+      <div class="mp__row"><span class="mp__lab">Data</span><span class="chip chip--d">Cell-line gene expression</span><span class="chip chip--d">Drug graphs</span><span class="chip chip--d">Pathway KG</span></div>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="modal" id="m-robust">
+  <div class="modal__head">
+    <button class="modal__close" aria-label="Close">×</button>
+    <span class="modal__kicker">Research · Theme 2</span>
+    <h3 class="modal__title">Robust &amp; generalizable graph learning</h3>
+    <p class="modal__intro">A model is only useful if it holds up on data it was never trained on. I design graph methods that stay reliable under distribution shift and transfer across domains.</p>
+  </div>
+  <div class="modal__body">
+    <div class="mp">
+      <div class="mp__top"><a class="mp__title" href="https://arxiv.org/abs/2403.01773">Improving OOD Generalization in Graphs via Hierarchical Semantic Environments</a><span class="mp__venue">CVPR '24</span></div>
+      <div class="mp__row"><span class="mp__lab">Method</span><span class="chip chip--m">Invariant learning</span><span class="chip chip--m">Hierarchical environments</span></div>
+      <div class="mp__row"><span class="mp__lab">Data</span><span class="chip chip--d">Molecular property (OOD splits)</span></div>
+    </div>
+    <div class="mp">
+      <div class="mp__top"><a class="mp__title" href="https://arxiv.org/abs/2305.09756">Clinical Note Owns its Hierarchy: Multi-Level Hypergraph Neural Networks</a><span class="mp__venue">ACL '23 · Oral</span></div>
+      <div class="mp__row"><span class="mp__lab">Method</span><span class="chip chip--m">Multi-level hypergraph</span></div>
+      <div class="mp__row"><span class="mp__lab">Data</span><span class="chip chip--d">Clinical notes (EHR)</span></div>
+    </div>
+    <div class="mp">
+      <div class="mp__top"><a class="mp__title" href="https://ojs.aaai.org/index.php/AAAI/article/view/21366">Sparse Structure Learning via GNNs for Inductive Document Classification</a><span class="mp__venue">AAAI '22</span></div>
+      <div class="mp__row"><span class="mp__lab">Method</span><span class="chip chip--m">Sparse structure learning</span><span class="chip chip--m">GNN</span></div>
+      <div class="mp__row"><span class="mp__lab">Data</span><span class="chip chip--d">Document graphs</span></div>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="modal" id="m-llm">
+  <div class="modal__head">
+    <button class="modal__close" aria-label="Close">×</button>
+    <span class="modal__kicker">Research · Theme 3 · Current</span>
+    <h3 class="modal__title">LLM agents for biological reasoning</h3>
+    <p class="modal__intro">My current focus: agents that reason over biological knowledge to model cells and predict how they respond to perturbations.</p>
+  </div>
+  <div class="modal__body">
+    <div class="mp">
+      <div class="mp__top"><a class="mp__title" href="https://arxiv.org/abs/2602.18885">Learning Adaptive Perturbation-Conditioned Contexts for Robust Transcriptional Response Prediction</a><span class="mp__venue">ICML '26</span></div>
+      <div class="mp__row"><span class="mp__lab">Method</span><span class="chip chip--m">Perturbation-conditioned context</span><span class="chip chip--m">Robust prediction</span></div>
+      <div class="mp__row"><span class="mp__lab">Data</span><span class="chip chip--d">Perturbation transcriptomics</span><span class="chip chip--d">Gene descriptions</span><span class="chip chip--d">Biological KG</span></div>
+    </div>
+    <div class="mp">
+      <div class="mp__top"><a class="mp__title" href="https://arxiv.org/abs/2602.07408">Progressive Multi-Agent Reasoning for Biological Perturbation Prediction</a><span class="mp__venue">Preprint</span></div>
+      <div class="mp__row"><span class="mp__lab">Method</span><span class="chip chip--m">Multi-agent</span><span class="chip chip--m">Progressive reasoning</span><span class="chip chip--m">LLM</span></div>
+      <div class="mp__row"><span class="mp__lab">Data</span><span class="chip chip--d">Perturbation tasks</span><span class="chip chip--d">Biological knowledge</span></div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  document.querySelectorAll('[data-modal]').forEach(function(card){
+    function open(){var d=document.getElementById(card.getAttribute('data-modal'));if(d&&d.showModal)d.showModal();}
+    card.addEventListener('click',open);
+    card.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});
+  });
+  document.querySelectorAll('dialog.modal').forEach(function(d){
+    d.addEventListener('click',function(e){if(e.target===d)d.close();});
+    var x=d.querySelector('.modal__close');if(x)x.addEventListener('click',function(){d.close();});
+  });
+
+  // scroll-spy: highlight the nav link of the section in view
+  var links=Array.prototype.slice.call(document.querySelectorAll('.topnav a'));
+  var map={};links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a;});
+  var sections=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1));}).filter(Boolean);
+  function setActive(id){links.forEach(function(a){a.classList.toggle('active',a.getAttribute('href').slice(1)===id);});}
+  if('IntersectionObserver' in window){
+    var visible={};
+    var obs=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){visible[e.target.id]=e.isIntersecting?e.intersectionRatio:0;});
+      var best=null,top=-1;
+      Object.keys(visible).forEach(function(id){if(visible[id]>top){top=visible[id];best=id;}});
+      if(best&&top>0)setActive(best);
+    },{rootMargin:'-66px 0px -55% 0px',threshold:[0,.25,.5,1]});
+    sections.forEach(function(s){obs.observe(s);});
+  }
+})();
+</script>
+
+</body>
+</html>
